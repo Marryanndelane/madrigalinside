@@ -1,0 +1,159 @@
+.site-main {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+}
+
+.sticky {
+	display: block;
+}
+
+.site {
+	@include shadow-box();
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+	flex: 1 100%;
+	@include highlight-shadow-box();
+	padding: 5px;
+
+	.more-link, .entry-title {
+		display: block;
+		text-align: center;
+	}
+}
+
+.post.hentry {
+	img {
+		display: block;
+		margin: auto;
+	}
+}
+
+.events, .news {
+	flex: 1;
+	margin-bottom: 1.5em;
+	padding: 5px;
+	font-size: 0.8rem;
+	@include highlight-shadow-box();
+
+	.headline {
+		font-size: 1.3em;
+		text-align: center;
+		border-bottom: 1px solid rgba(0,0,0,0.7);
+    		padding-bottom: 5px;
+    		margin-bottom: 5px;
+	}
+
+	.news_loop, .event_loop {
+		border-bottom: 1px solid rgba(0,0,0,0.7);
+		padding-bottom: 5px;
+		margin-bottom: 5px;
+	}
+
+	.more {
+		text-align: center;
+	}
+
+	.event_item, .news_item {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: baseline;
+		margin: 0;
+
+		a {
+			flex: 3;
+			h5 {
+				margin: 0;
+				font-size: 1em;
+				clear: none;
+			}
+		}
+		.event_date {
+			flex: 2;
+		}
+		.event_category, .eventpost-date-export {
+			display: none;
+		}
+	}
+}
+.events {
+	margin-left: 5px;
+}
+.news {
+	margin-right: 5px;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+
+// monster list
+.monster-list {
+	display: flex;
+	flex-flow: column wrap;
+	text-align: center;
+
+	@media screen and (min-width: 37.5rem) {
+		flex-direction: row;
+	}
+}
+
+.monster-container {
+	display: block;
+	flex: 1;
+	padding: 1%;
+	color: $color__text-main;
+	text-decoration: none;
+
+	@media screen and (min-width: 37.5rem) {
+		flex: 0 0 25%;
+	}
+
+	&:hover {
+		box-shadow: 0 0 5px 1px #5da01f;
+		z-index: 2;
+	}
+	&:hover, &:visited, &:focus, &:active {
+		color: $color__text-main;
+		text-decoration: none;
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.monster-image {
+	margin: auto;
+}
+
+.monster-types {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.monster-type {
+	flex: 0 0 45%;
+	@include shadow-box();
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+

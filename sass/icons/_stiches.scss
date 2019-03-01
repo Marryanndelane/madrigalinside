@@ -1,0 +1,6216 @@
+@mixin stitches-icon-event($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-event.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-event-chocolate-receipe-kit {
+    @include stitches-icon-event(-5px, -5px, 37px, 38px);
+}
+
+.icon-event-dark-chocolate-base {
+    @include stitches-icon-event(-52px, -5px, 39px, 40px);
+}
+
+.icon-event-four-leaf-clover {
+    @include stitches-icon-event(-101px, -5px, 33px, 37px);
+}
+
+.icon-event-fresh-whipped-cream {
+    @include stitches-icon-event(-144px, -5px, 34px, 38px);
+}
+
+.icon-event-gift-box-dark-chocolate {
+    @include stitches-icon-event(-101px, -53px, 42px, 42px);
+}
+
+.icon-event-gift-box-white-chocolate {
+    @include stitches-icon-event(-153px, -53px, 43px, 40px);
+}
+
+.icon-event-kakao {
+    @include stitches-icon-event(-5px, -53px, 33px, 36px);
+}
+
+.icon-event-letter-to-jessica {
+    @include stitches-icon-event(-5px, -103px, 36px, 35px);
+}
+
+.icon-event-letter-to-nana {
+    @include stitches-icon-event(-51px, -103px, 36px, 35px);
+}
+
+.icon-event-love-present-for-jessica {
+    @include stitches-icon-event(-153px, -103px, 36px, 38px);
+}
+
+.icon-event-love-present-for-nana {
+    @include stitches-icon-event(-5px, -151px, 36px, 38px);
+}
+
+.icon-event-magicial-skein {
+    @include stitches-icon-event(-188px, -5px, 18px, 20px);
+}
+
+.icon-event-piece-of-plastic {
+    @include stitches-icon-event(-51px, -151px, 31px, 31px);
+}
+
+.icon-event-present-for-jessica {
+    @include stitches-icon-event(-92px, -151px, 35px, 38px);
+}
+
+.icon-event-present-for-nana {
+    @include stitches-icon-event(-137px, -151px, 35px, 38px);
+}
+
+.icon-event-scorched-dark-chocolate {
+    @include stitches-icon-event(-216px, -5px, 44px, 40px);
+}
+
+.icon-event-scorched-white-chocolate {
+    @include stitches-icon-event(-206px, -55px, 40px, 39px);
+}
+
+.icon-event-soft-petal {
+    @include stitches-icon-event(-48px, -55px, 27px, 27px);
+}
+
+.icon-event-three-leaf-clover {
+    @include stitches-icon-event(-199px, -104px, 33px, 31px);
+}
+
+.icon-event-white-chocolate-base {
+    @include stitches-icon-event(-199px, -145px, 38px, 35px);
+}
+
+.icon-event-white-day-bouquet {
+    @include stitches-icon-event(-182px, -190px, 27px, 30px);
+}
+
+.icon-event-white-day-chocolate {
+    @include stitches-icon-event(-219px, -190px, 28px, 30px);
+}
+
+@mixin stitches-icon-jewelery($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-jewelery.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-jewelery-angel-necklace {
+    @include stitches-icon-jewelery(-5px, -5px, 33px, 32px);
+}
+
+.icon-jewelery-angel-necklace-2017 {
+     @include stitches-icon-jewelery(-48px, -5px, 32px, 32px);
+}
+
+.icon-jewelery-der-andere-ring {
+    @include stitches-icon-jewelery(-90px, -5px, 32px, 32px);
+}
+
+.icon-jewelery-der-andere-ring-2015 {
+    @include stitches-icon-jewelery(-132px, -5px, 44px, 42px);
+}
+
+.icon-jewelery-der-eine-ring {
+    @include stitches-icon-jewelery(-5px, -57px, 32px, 32px);
+}
+
+.icon-jewelery-der-eine-ring-2015 {
+    @include stitches-icon-jewelery(-47px, -57px, 40px, 43px);
+}
+
+.icon-jewelery-harp-earring {
+    @include stitches-icon-jewelery(-97px, -57px, 30px, 32px);
+}
+
+.icon-jewelery-harp-earring-2017 {
+    @include stitches-icon-jewelery(-137px, -57px, 31px, 32px);
+}
+
+.icon-jewelery-peision-necklace-of-soul {
+    @include stitches-icon-jewelery(-5px, -99px, 32px, 32px);
+}
+
+.icon-jewelery-soul-demolition-earring {
+    @include stitches-icon-jewelery(-97px, -99px, 32px, 32px);
+}
+
+.icon-jewelery-soul-diamond-ring {
+    @include stitches-icon-jewelery(-139px, -99px, 32px, 32px);
+}
+
+.icon-jewelery-soul-emerald-ring {
+    @include stitches-icon-jewelery(-5px, -141px, 32px, 32px);
+}
+
+.icon-jewelery-soul-gore-mental-necklace {
+    @include stitches-icon-jewelery(-47px, -141px, 32px, 32px);
+}
+
+.icon-jewelery-soul-gore-necklace {
+    @include stitches-icon-jewelery(-89px, -141px, 32px, 32px);
+}
+
+.icon-jewelery-soul-magic-earring {
+    @include stitches-icon-jewelery(-131px, -141px, 32px, 32px);
+}
+
+.icon-jewelery-soul-mental-necklace {
+    @include stitches-icon-jewelery(-186px, -5px, 32px, 32px);
+}
+
+.icon-jewelery-soul-plug-earring {
+    @include stitches-icon-jewelery(-186px, -47px, 32px, 32px);
+}
+
+.icon-jewelery-soul-range-earring {
+    @include stitches-icon-jewelery(-181px, -89px, 32px, 32px);
+}
+
+.icon-jewelery-soul-ruby-ring {
+    @include stitches-icon-jewelery(-181px, -131px, 32px, 32px);
+}
+
+.icon-jewelery-soul-sapphire-ring {
+    @include stitches-icon-jewelery(-173px, -173px, 32px, 32px);
+}
+
+.icon-jewelery-wing-ring {
+    @include stitches-icon-jewelery(-228px, -5px, 30px, 32px);
+}
+
+.icon-jewelery-wing-ring-2017 {
+    @include stitches-icon-jewelery(-228px, -47px, 31px, 32px);
+}
+
+@mixin stitches-icon-premium($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-premium.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-premium-azria-ticket {
+    @include stitches-icon-premium(-5px, -5px, 32px, 32px);
+}
+
+.icon-premium-change-awakening-scroll {
+    @include stitches-icon-premium(-47px, -5px, 50px, 50px);
+}
+
+.icon-premium-dark-rartesia-ticket {
+    @include stitches-icon-premium(-5px, -65px, 32px, 32px);
+}
+
+.icon-premium-premium-ticket {
+    @include stitches-icon-premium(-47px, -65px, 32px, 32px);
+}
+
+.icon-premium-rartesia-ticket {
+    @include stitches-icon-premium(-89px, -65px, 32px, 32px);
+}
+
+.icon-premium-scroll-of-awakening-protection {
+    @include stitches-icon-premium(-107px, -5px, 32px, 32px);
+}
+
+.icon-premium-scroll-of-cancel-awakening {
+    @include stitches-icon-premium(-131px, -47px, 33px, 33px);
+}
+
+.icon-premium-stat-dice-reset {
+    @include stitches-icon-premium(-131px, -90px, 32px, 32px);
+}
+
+.icon-premium-ticket-zur-koralleninsel {
+    @include stitches-icon-premium(-5px, -132px, 32px, 32px);
+}
+
+@mixin stitches-icon-questicon($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-questitem.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.icon-questicon-ampere {
+    @include stitches-icon-questicon(-5px, -5px, 32px, 32px);
+}
+
+.icon-questicon-bell-of-cat {
+    @include stitches-icon-questicon(-47px, -5px, 32px, 32px);
+}
+
+.icon-questicon-berken-naginata-blade {
+    @include stitches-icon-questicon(-89px, -5px, 32px, 32px);
+}
+
+.icon-questicon-big-nipper {
+    @include stitches-icon-questicon(-131px, -5px, 32px, 32px);
+}
+
+.icon-questicon-blue-honey {
+    @include stitches-icon-questicon(-173px, -5px, 32px, 32px);
+}
+
+.icon-questicon-boband {
+    @include stitches-icon-questicon(-215px, -5px, 32px, 32px);
+}
+
+.icon-questicon-bomb-timer {
+    @include stitches-icon-questicon(-257px, -5px, 32px, 32px);
+}
+
+.icon-questicon-boo-string {
+    @include stitches-icon-questicon(-299px, -5px, 32px, 32px);
+}
+
+.icon-questicon-broken-wing {
+    @include stitches-icon-questicon(-341px, -5px, 32px, 32px);
+}
+
+.icon-questicon-cardrin {
+    @include stitches-icon-questicon(-5px, -47px, 32px, 32px);
+}
+
+.icon-questicon-chupim {
+    @include stitches-icon-questicon(-47px, -47px, 32px, 32px);
+}
+
+.icon-questicon-claw-of-lycan-guard {
+    @include stitches-icon-questicon(-89px, -47px, 32px, 32px);
+}
+
+.icon-questicon-clock-heart {
+    @include stitches-icon-questicon(-131px, -47px, 32px, 32px);
+}
+
+.icon-questicon-crab-shell {
+    @include stitches-icon-questicon(-173px, -47px, 32px, 32px);
+}
+
+.icon-questicon-cresent-stone {
+    @include stitches-icon-questicon(-215px, -47px, 32px, 32px);
+}
+
+.icon-questicon-crumbly-hair {
+    @include stitches-icon-questicon(-257px, -47px, 32px, 32px);
+}
+
+.icon-questicon-devils-horn {
+    @include stitches-icon-questicon(-299px, -47px, 32px, 32px);
+}
+
+.icon-questicon-dragon-heart {
+    @include stitches-icon-questicon(-341px, -47px, 32px, 32px);
+}
+
+.icon-questicon-dragon-tooth {
+    @include stitches-icon-questicon(-5px, -89px, 32px, 32px);
+}
+
+.icon-questicon-droil {
+    @include stitches-icon-questicon(-47px, -89px, 32px, 32px);
+}
+
+.icon-questicon-dumb-ring {
+    @include stitches-icon-questicon(-89px, -89px, 32px, 32px);
+}
+
+.icon-questicon-dump-tire {
+    @include stitches-icon-questicon(-131px, -89px, 32px, 32px);
+}
+
+.icon-questicon-eronior {
+    @include stitches-icon-questicon(-173px, -89px, 32px, 32px);
+}
+
+.icon-questicon-eronsimint {
+    @include stitches-icon-questicon(-215px, -89px, 32px, 32px);
+}
+
+.icon-questicon-flybat-claw {
+    @include stitches-icon-questicon(-257px, -89px, 32px, 32px);
+}
+
+.icon-questicon-forform {
+    @include stitches-icon-questicon(-299px, -89px, 32px, 32px);
+}
+
+.icon-questicon-furious-match {
+    @include stitches-icon-questicon(-341px, -89px, 32px, 32px);
+}
+
+.icon-questicon-garbageton {
+    @include stitches-icon-questicon(-5px, -131px, 32px, 32px);
+}
+
+.icon-questicon-gigglande {
+    @include stitches-icon-questicon(-47px, -131px, 32px, 32px);
+}
+
+.icon-questicon-gogloo {
+    @include stitches-icon-questicon(-89px, -131px, 32px, 32px);
+}
+
+.icon-questicon-golden-cup {
+    @include stitches-icon-questicon(-131px, -131px, 32px, 32px);
+}
+
+.icon-questicon-golden-fist {
+    @include stitches-icon-questicon(-173px, -131px, 32px, 32px);
+}
+
+.icon-questicon-golden-wing {
+    @include stitches-icon-questicon(-215px, -131px, 32px, 32px);
+}
+
+.icon-questicon-great-crown {
+    @include stitches-icon-questicon(-257px, -131px, 32px, 32px);
+}
+
+.icon-questicon-greedy-tongue {
+    @include stitches-icon-questicon(-299px, -131px, 32px, 32px);
+}
+
+.icon-questicon-grrr-bandage {
+    @include stitches-icon-questicon(-341px, -131px, 32px, 32px);
+}
+
+.icon-questicon-guardieye {
+    @include stitches-icon-questicon(-5px, -173px, 32px, 32px);
+}
+
+.icon-questicon-hammamer {
+    @include stitches-icon-questicon(-47px, -173px, 32px, 32px);
+}
+
+.icon-questicon-hammarble {
+    @include stitches-icon-questicon(-89px, -173px, 32px, 32px);
+}
+
+.icon-questicon-harpy-feather {
+    @include stitches-icon-questicon(-131px, -173px, 32px, 32px);
+}
+
+.icon-questicon-hop-wing {
+    @include stitches-icon-questicon(-173px, -173px, 32px, 32px);
+}
+
+.icon-questicon-horn-of-knum {
+    @include stitches-icon-questicon(-215px, -173px, 32px, 32px);
+}
+
+.icon-questicon-ink-pouche {
+    @include stitches-icon-questicon(-257px, -173px, 32px, 32px);
+}
+
+.icon-questicon-iron-tooth {
+    @include stitches-icon-questicon(-299px, -173px, 32px, 32px);
+}
+
+.icon-questicon-kalin {
+    @include stitches-icon-questicon(-341px, -173px, 32px, 32px);
+}
+
+.icon-questicon-keen-tooth {
+    @include stitches-icon-questicon(-5px, -215px, 32px, 32px);
+}
+
+.icon-questicon-kermond {
+    @include stitches-icon-questicon(-47px, -215px, 32px, 32px);
+}
+
+.icon-questicon-knightler {
+    @include stitches-icon-questicon(-89px, -215px, 32px, 32px);
+}
+
+.icon-questicon-long-bill {
+    @include stitches-icon-questicon(-131px, -215px, 32px, 32px);
+}
+
+.icon-questicon-luchest {
+    @include stitches-icon-questicon(-173px, -215px, 32px, 32px);
+}
+
+.icon-questicon-lycan-antidote {
+    @include stitches-icon-questicon(-215px, -215px, 32px, 32px);
+}
+
+.icon-questicon-magic-bead {
+    @include stitches-icon-questicon(-257px, -215px, 32px, 32px);
+}
+
+.icon-questicon-merahook {
+    @include stitches-icon-questicon(-299px, -215px, 32px, 32px);
+}
+
+.icon-questicon-mia-doll {
+    @include stitches-icon-questicon(-341px, -215px, 32px, 32px);
+}
+
+.icon-questicon-mong-tear {
+    @include stitches-icon-questicon(-5px, -257px, 32px, 32px);
+}
+
+.icon-questicon-mysterious-mud {
+    @include stitches-icon-questicon(-47px, -257px, 32px, 32px);
+}
+
+.icon-questicon-nail-of-hague {
+    @include stitches-icon-questicon(-89px, -257px, 32px, 32px);
+}
+
+.icon-questicon-nerky-mane {
+    @include stitches-icon-questicon(-131px, -257px, 32px, 32px);
+}
+
+.icon-questicon-nose-ring {
+    @include stitches-icon-questicon(-383px, -5px, 24px, 24px);
+}
+
+.icon-questicon-nuctu-wheel {
+    @include stitches-icon-questicon(-173px, -257px, 32px, 32px);
+}
+
+.icon-questicon-orbrin {
+    @include stitches-icon-questicon(-215px, -257px, 32px, 32px);
+}
+
+.icon-questicon-palin {
+    @include stitches-icon-questicon(-257px, -257px, 32px, 32px);
+}
+
+.icon-questicon-peakyrind {
+    @include stitches-icon-questicon(-299px, -257px, 32px, 32px);
+}
+
+.icon-questicon-phanbubble {
+    @include stitches-icon-questicon(-341px, -257px, 32px, 32px);
+}
+
+.icon-questicon-poiespore {
+    @include stitches-icon-questicon(-5px, -299px, 32px, 32px);
+}
+
+.icon-questicon-poison-bag {
+    @include stitches-icon-questicon(-47px, -299px, 32px, 32px);
+}
+
+.icon-questicon-poporam {
+    @include stitches-icon-questicon(-89px, -299px, 32px, 32px);
+}
+
+.icon-questicon-popshift {
+    @include stitches-icon-questicon(-131px, -299px, 36px, 38px);
+}
+
+.icon-questicon-renyken {
+    @include stitches-icon-questicon(-177px, -299px, 32px, 32px);
+}
+
+.icon-questicon-repy-goggle {
+    @include stitches-icon-questicon(-219px, -299px, 32px, 32px);
+}
+
+.icon-questicon-rincruet {
+    @include stitches-icon-questicon(-261px, -299px, 30px, 37px);
+}
+
+.icon-questicon-ruined-heart {
+    @include stitches-icon-questicon(-301px, -299px, 32px, 32px);
+}
+
+.icon-questicon-scorpion-tail {
+    @include stitches-icon-questicon(-343px, -299px, 32px, 32px);
+}
+
+.icon-questicon-sentry-skull-mask {
+    @include stitches-icon-questicon(-5px, -341px, 32px, 32px);
+}
+
+.icon-questicon-sharp-canine {
+    @include stitches-icon-questicon(-47px, -341px, 32px, 32px);
+}
+
+.icon-questicon-skull-mask {
+    @include stitches-icon-questicon(-89px, -341px, 32px, 32px);
+}
+
+.icon-questicon-skull-necklace {
+    @include stitches-icon-questicon(-177px, -341px, 32px, 32px);
+}
+
+.icon-questicon-slain {
+    @include stitches-icon-questicon(-219px, -341px, 32px, 32px);
+}
+
+.icon-questicon-sorcery-skull {
+    @include stitches-icon-questicon(-301px, -341px, 32px, 32px);
+}
+
+.icon-questicon-spider-flower {
+    @include stitches-icon-questicon(-343px, -341px, 32px, 32px);
+}
+
+.icon-questicon-star-stone {
+    @include stitches-icon-questicon(-417px, -5px, 32px, 32px);
+}
+
+.icon-questicon-steam-tear {
+    @include stitches-icon-questicon(-383px, -47px, 32px, 32px);
+}
+
+.icon-questicon-strange-ivory {
+    @include stitches-icon-questicon(-383px, -89px, 32px, 32px);
+}
+
+.icon-questicon-strong-root {
+    @include stitches-icon-questicon(-383px, -131px, 32px, 32px);
+}
+
+.icon-questicon-sycale {
+    @include stitches-icon-questicon(-383px, -173px, 32px, 32px);
+}
+
+.icon-questicon-tangkask {
+    @include stitches-icon-questicon(-383px, -215px, 32px, 32px);
+}
+
+.icon-questicon-tarin-root {
+    @include stitches-icon-questicon(-383px, -257px, 32px, 32px);
+}
+
+.icon-questicon-teddy-bear {
+    @include stitches-icon-questicon(-385px, -299px, 32px, 32px);
+}
+
+.icon-questicon-tint {
+    @include stitches-icon-questicon(-385px, -341px, 28px, 30px);
+}
+
+.icon-questicon-toma {
+    @include stitches-icon-questicon(-131px, -381px, 32px, 32px);
+}
+
+.icon-questicon-tomb-marble {
+    @include stitches-icon-questicon(-385px, -381px, 32px, 32px);
+}
+
+.icon-questicon-torn-book {
+    @include stitches-icon-questicon(-459px, -5px, 32px, 32px);
+}
+
+.icon-questicon-trangfoma-nuctu-wheel {
+    @include stitches-icon-questicon(-425px, -47px, 32px, 32px);
+}
+
+.icon-questicon-twinklestone {
+    @include stitches-icon-questicon(-467px, -47px, 18px, 17px);
+}
+
+.icon-questicon-weird-eye {
+    @include stitches-icon-questicon(-425px, -89px, 32px, 32px);
+}
+
+.icon-questicon-wheeshoe {
+    @include stitches-icon-questicon(-425px, -131px, 32px, 32px);
+}
+
+.icon-questicon-zombiger-axe {
+    @include stitches-icon-questicon(-425px, -173px, 32px, 32px);
+}
+
+
+@mixin stitches-icon-set($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-set.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-set-acer-boots-f {
+    @include stitches-icon-set(-5px, -5px, 32px, 32px);
+}
+
+.icon-set-acer-boots-m {
+    @include stitches-icon-set(-47px, -5px, 32px, 32px);
+}
+
+.icon-set-acer-gauntlet-f {
+    @include stitches-icon-set(-89px, -5px, 32px, 32px);
+}
+
+.icon-set-acer-gauntlet-m {
+    @include stitches-icon-set(-131px, -5px, 32px, 32px);
+}
+
+.icon-set-acer-hat-f {
+    @include stitches-icon-set(-173px, -5px, 32px, 32px);
+}
+
+.icon-set-acer-hat-m {
+    @include stitches-icon-set(-215px, -5px, 32px, 32px);
+}
+
+.icon-set-acer-suit-f {
+    @include stitches-icon-set(-257px, -5px, 32px, 32px);
+}
+
+.icon-set-acer-suit-m {
+    @include stitches-icon-set(-299px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-boots-f {
+    @include stitches-icon-set(-341px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-boots-m {
+    @include stitches-icon-set(-383px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-gauntlet-f {
+    @include stitches-icon-set(-425px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-gauntlet-m {
+    @include stitches-icon-set(-467px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-hat-f {
+    @include stitches-icon-set(-509px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-hat-m {
+    @include stitches-icon-set(-551px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-suit-f {
+    @include stitches-icon-set(-593px, -5px, 32px, 32px);
+}
+
+.icon-set-aken-suit-m {
+    @include stitches-icon-set(-635px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-boots-f {
+    @include stitches-icon-set(-677px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-boots-m {
+    @include stitches-icon-set(-719px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-gauntlet-f {
+    @include stitches-icon-set(-761px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-gauntlet-m {
+    @include stitches-icon-set(-803px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-hat-f {
+    @include stitches-icon-set(-845px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-hat-m {
+    @include stitches-icon-set(-887px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-suit-f {
+    @include stitches-icon-set(-929px, -5px, 32px, 32px);
+}
+
+.icon-set-alext-suit-m {
+    @include stitches-icon-set(-971px, -5px, 32px, 32px);
+}
+
+.icon-set-anis-boots-f {
+    @include stitches-icon-set(-5px, -47px, 32px, 32px);
+}
+
+.icon-set-anis-boots-m {
+    @include stitches-icon-set(-47px, -47px, 32px, 32px);
+}
+
+.icon-set-anis-gauntlet-f {
+    @include stitches-icon-set(-89px, -47px, 32px, 32px);
+}
+
+.icon-set-anis-gauntlet-m {
+    @include stitches-icon-set(-131px, -47px, 32px, 32px);
+}
+
+.icon-set-anis-helmet-f {
+    @include stitches-icon-set(-173px, -47px, 32px, 32px);
+}
+
+.icon-set-anis-helmet-m {
+    @include stitches-icon-set(-215px, -47px, 32px, 32px);
+}
+
+.icon-set-anis-suit-f {
+    @include stitches-icon-set(-257px, -47px, 32px, 32px);
+}
+
+.icon-set-anis-suit-m {
+    @include stitches-icon-set(-299px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-boots-f {
+    @include stitches-icon-set(-341px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-boots-m {
+    @include stitches-icon-set(-383px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-gauntlet-f {
+    @include stitches-icon-set(-425px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-gauntlet-m {
+    @include stitches-icon-set(-467px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-hat-f {
+    @include stitches-icon-set(-509px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-hat-m {
+    @include stitches-icon-set(-551px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-suit-f {
+    @include stitches-icon-set(-593px, -47px, 32px, 32px);
+}
+
+.icon-set-asren-suit-m {
+    @include stitches-icon-set(-635px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-boots-f {
+    @include stitches-icon-set(-677px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-boots-m {
+    @include stitches-icon-set(-719px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-gauntlet-f {
+    @include stitches-icon-set(-761px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-gauntlet-m {
+    @include stitches-icon-set(-803px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-hat-f {
+    @include stitches-icon-set(-845px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-hat-m {
+    @include stitches-icon-set(-887px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-suit-f {
+    @include stitches-icon-set(-929px, -47px, 32px, 32px);
+}
+
+.icon-set-billporon-suit-m {
+    @include stitches-icon-set(-971px, -47px, 32px, 32px);
+}
+
+.icon-set-blain-boots-f {
+    @include stitches-icon-set(-5px, -89px, 32px, 32px);
+}
+
+.icon-set-blain-boots-m {
+    @include stitches-icon-set(-47px, -89px, 32px, 32px);
+}
+
+.icon-set-blain-gauntlet-f {
+    @include stitches-icon-set(-89px, -89px, 32px, 32px);
+}
+
+.icon-set-blain-gauntlet-m {
+    @include stitches-icon-set(-131px, -89px, 32px, 32px);
+}
+
+.icon-set-blain-hat-f {
+    @include stitches-icon-set(-173px, -89px, 32px, 32px);
+}
+
+.icon-set-blain-hat-m {
+    @include stitches-icon-set(-215px, -89px, 32px, 32px);
+}
+
+.icon-set-blain-suit-f {
+    @include stitches-icon-set(-257px, -89px, 32px, 32px);
+}
+
+.icon-set-blain-suit-f-24x24 {
+    @include stitches-icon-set(-299px, -89px, 24px, 24px);
+}
+
+.icon-set-blain-suit-m {
+    @include stitches-icon-set(-333px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-boots-f {
+    @include stitches-icon-set(-375px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-boots-f-24x24 {
+    @include stitches-icon-set(-417px, -89px, 24px, 24px);
+}
+
+.icon-set-comet-boots-m {
+    @include stitches-icon-set(-451px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-boots-m-24x24 {
+    @include stitches-icon-set(-493px, -89px, 24px, 24px);
+}
+
+.icon-set-comet-gauntlet-f {
+    @include stitches-icon-set(-527px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-gauntlet-f-24x24 {
+    @include stitches-icon-set(-569px, -89px, 24px, 24px);
+}
+
+.icon-set-comet-gauntlet-m {
+    @include stitches-icon-set(-603px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-gauntlet-m-24x24 {
+    @include stitches-icon-set(-645px, -89px, 24px, 24px);
+}
+
+.icon-set-comet-hat-f {
+    @include stitches-icon-set(-679px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-hat-f-24x24 {
+    @include stitches-icon-set(-721px, -89px, 24px, 24px);
+}
+
+.icon-set-comet-hat-m {
+    @include stitches-icon-set(-755px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-hat-m-24x24 {
+    @include stitches-icon-set(-797px, -89px, 24px, 24px);
+}
+
+.icon-set-comet-suit-f {
+    @include stitches-icon-set(-831px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-suit-f-24x24 {
+    @include stitches-icon-set(-873px, -89px, 24px, 24px);
+}
+
+.icon-set-comet-suit-m {
+    @include stitches-icon-set(-907px, -89px, 32px, 32px);
+}
+
+.icon-set-comet-suit-m-24x24 {
+    @include stitches-icon-set(-949px, -89px, 24px, 24px);
+}
+
+.icon-set-cruentus-boots-f {
+    @include stitches-icon-set(-949px, -123px, 32px, 32px);
+}
+
+.icon-set-cruentus-boots-f-24x24 {
+    @include stitches-icon-set(-299px, -123px, 24px, 24px);
+}
+
+.icon-set-cruentus-boots-m {
+    @include stitches-icon-set(-5px, -165px, 32px, 32px);
+}
+
+.icon-set-cruentus-boots-m-24x24 {
+    @include stitches-icon-set(-417px, -123px, 24px, 24px);
+}
+
+.icon-set-cruentus-gauntlet-f {
+    @include stitches-icon-set(-47px, -165px, 32px, 32px);
+}
+
+.icon-set-cruentus-gauntlet-f-24x24 {
+    @include stitches-icon-set(-493px, -123px, 24px, 24px);
+}
+
+.icon-set-cruentus-gauntlet-m {
+    @include stitches-icon-set(-89px, -165px, 32px, 32px);
+}
+
+.icon-set-cruentus-gauntlet-m-24x24 {
+    @include stitches-icon-set(-569px, -123px, 24px, 24px);
+}
+
+.icon-set-cruentus-hat-f {
+    @include stitches-icon-set(-131px, -165px, 32px, 32px);
+}
+
+.icon-set-cruentus-hat-f-24x24 {
+    @include stitches-icon-set(-645px, -123px, 24px, 24px);
+}
+
+.icon-set-cruentus-hat-m {
+    @include stitches-icon-set(-173px, -165px, 32px, 32px);
+}
+
+.icon-set-cruentus-hat-m-24x24 {
+    @include stitches-icon-set(-721px, -123px, 24px, 24px);
+}
+
+.icon-set-cruentus-suit-f {
+    @include stitches-icon-set(-215px, -165px, 32px, 32px);
+}
+
+.icon-set-cruentus-suit-f-24x24 {
+    @include stitches-icon-set(-797px, -123px, 24px, 24px);
+}
+
+.icon-set-cruentus-suit-m {
+    @include stitches-icon-set(-257px, -165px, 32px, 32px);
+}
+
+.icon-set-cruentus-suit-m-24x24 {
+    @include stitches-icon-set(-873px, -123px, 24px, 24px);
+}
+
+.icon-set-cruiser-boots-f {
+    @include stitches-icon-set(-299px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-boots-f-24x24 {
+    @include stitches-icon-set(-341px, -165px, 24px, 24px);
+}
+
+.icon-set-cruiser-boots-m {
+    @include stitches-icon-set(-375px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-boots-m-24x24 {
+    @include stitches-icon-set(-417px, -165px, 24px, 24px);
+}
+
+.icon-set-cruiser-gauntlet-f {
+    @include stitches-icon-set(-451px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-gauntlet-f-24x24 {
+    @include stitches-icon-set(-493px, -165px, 24px, 24px);
+}
+
+.icon-set-cruiser-gauntlet-m {
+    @include stitches-icon-set(-527px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-gauntlet-m-24x24 {
+    @include stitches-icon-set(-569px, -165px, 24px, 24px);
+}
+
+.icon-set-cruiser-hat-f {
+    @include stitches-icon-set(-603px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-hat-f-24x24 {
+    @include stitches-icon-set(-645px, -165px, 24px, 24px);
+}
+
+.icon-set-cruiser-hat-m {
+    @include stitches-icon-set(-679px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-hat-m-24x24 {
+    @include stitches-icon-set(-721px, -165px, 24px, 24px);
+}
+
+.icon-set-cruiser-suit-f {
+    @include stitches-icon-set(-755px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-suit-f-24x24 {
+    @include stitches-icon-set(-797px, -165px, 24px, 24px);
+}
+
+.icon-set-cruiser-suit-m {
+    @include stitches-icon-set(-831px, -165px, 32px, 32px);
+}
+
+.icon-set-cruiser-suit-m-24x24 {
+    @include stitches-icon-set(-873px, -165px, 24px, 24px);
+}
+
+.icon-set-curus-boots-f {
+    @include stitches-icon-set(-907px, -165px, 32px, 32px);
+}
+
+.icon-set-curus-boots-f-24x24 {
+    @include stitches-icon-set(-949px, -165px, 24px, 24px);
+}
+
+.icon-set-curus-boots-m {
+    @include stitches-icon-set(-949px, -199px, 32px, 32px);
+}
+
+.icon-set-curus-boots-m-24x24 {
+    @include stitches-icon-set(-341px, -199px, 24px, 24px);
+}
+
+.icon-set-curus-gauntlet-f {
+    @include stitches-icon-set(-5px, -241px, 32px, 32px);
+}
+
+.icon-set-curus-gauntlet-f-24x24 {
+    @include stitches-icon-set(-417px, -199px, 24px, 24px);
+}
+
+.icon-set-curus-gauntlet-m {
+    @include stitches-icon-set(-47px, -241px, 32px, 32px);
+}
+
+.icon-set-curus-gauntlet-m-24x24 {
+    @include stitches-icon-set(-493px, -199px, 24px, 24px);
+}
+
+.icon-set-curus-hat-f {
+    @include stitches-icon-set(-89px, -241px, 32px, 32px);
+}
+
+.icon-set-curus-hat-f-24x24 {
+    @include stitches-icon-set(-569px, -199px, 24px, 24px);
+}
+
+.icon-set-curus-hat-m {
+    @include stitches-icon-set(-131px, -241px, 32px, 32px);
+}
+
+.icon-set-curus-hat-m-24x24 {
+    @include stitches-icon-set(-645px, -199px, 24px, 24px);
+}
+
+.icon-set-curus-suit-f {
+    @include stitches-icon-set(-173px, -241px, 32px, 32px);
+}
+
+.icon-set-curus-suit-f-24x24 {
+    @include stitches-icon-set(-721px, -199px, 24px, 24px);
+}
+
+.icon-set-curus-suit-m {
+    @include stitches-icon-set(-215px, -241px, 32px, 32px);
+}
+
+.icon-set-curus-suit-m-24x24 {
+    @include stitches-icon-set(-797px, -199px, 24px, 24px);
+}
+
+.icon-set-dayst-boots-f {
+    @include stitches-icon-set(-257px, -241px, 32px, 32px);
+}
+
+.icon-set-dayst-boots-f-24x24 {
+    @include stitches-icon-set(-873px, -199px, 24px, 24px);
+}
+
+.icon-set-dayst-boots-m {
+    @include stitches-icon-set(-299px, -241px, 32px, 32px);
+}
+
+.icon-set-dayst-gauntlet-f {
+    @include stitches-icon-set(-341px, -241px, 32px, 32px);
+}
+
+.icon-set-dayst-gauntlet-m {
+    @include stitches-icon-set(-383px, -241px, 32px, 32px);
+}
+
+.icon-set-dayst-hat-f {
+    @include stitches-icon-set(-425px, -241px, 32px, 32px);
+}
+
+.icon-set-dayst-suit-f {
+    @include stitches-icon-set(-467px, -241px, 32px, 32px);
+}
+
+.icon-set-dayst-suit-m {
+    @include stitches-icon-set(-509px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-billposter-boots-f {
+    @include stitches-icon-set(-551px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-billposter-boots-m {
+    @include stitches-icon-set(-593px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-billposter-gauntlet-f {
+    @include stitches-icon-set(-635px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-psykeeper-boots-m {
+    @include stitches-icon-set(-677px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-psykeeper-gauntlet-f {
+    @include stitches-icon-set(-719px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-psykeeper-gauntlet-m {
+    @include stitches-icon-set(-761px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-psykeeper-hat-f {
+    @include stitches-icon-set(-803px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-psykeeper-hat-m {
+    @include stitches-icon-set(-845px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-psykeeper-suit-f {
+    @include stitches-icon-set(-887px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-psykeeper-suit-m {
+    @include stitches-icon-set(-929px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-boots-f {
+    @include stitches-icon-set(-971px, -241px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-boots-m {
+    @include stitches-icon-set(-5px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-gauntlet-f {
+    @include stitches-icon-set(-47px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-gauntlet-m {
+    @include stitches-icon-set(-89px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-hat-f {
+    @include stitches-icon-set(-131px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-hat-m {
+    @include stitches-icon-set(-173px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-suit-f {
+    @include stitches-icon-set(-215px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ranger-suit-m {
+    @include stitches-icon-set(-257px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-boots-f {
+    @include stitches-icon-set(-299px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-boots-m {
+    @include stitches-icon-set(-341px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-gauntlet-f {
+    @include stitches-icon-set(-383px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-gauntlet-m {
+    @include stitches-icon-set(-425px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-hat-f {
+    @include stitches-icon-set(-467px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-hat-m {
+    @include stitches-icon-set(-509px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-suit-f {
+    @include stitches-icon-set(-551px, -283px, 32px, 32px);
+}
+
+.icon-set-dryad-ringmaster-suit-m {
+    @include stitches-icon-set(-593px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-boots-f {
+    @include stitches-icon-set(-635px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-boots-m {
+    @include stitches-icon-set(-677px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-gauntlet-f {
+    @include stitches-icon-set(-719px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-gauntlet-m {
+    @include stitches-icon-set(-761px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-hat-f {
+    @include stitches-icon-set(-803px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-hat-m {
+    @include stitches-icon-set(-845px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-suit-f {
+    @include stitches-icon-set(-887px, -283px, 32px, 32px);
+}
+
+.icon-set-einy-suit-m {
+    @include stitches-icon-set(-929px, -283px, 32px, 32px);
+}
+
+.icon-set-elder-boots-f {
+    @include stitches-icon-set(-971px, -283px, 32px, 32px);
+}
+
+.icon-set-elder-boots-m {
+    @include stitches-icon-set(-5px, -325px, 32px, 32px);
+}
+
+.icon-set-elder-gauntlet-f {
+    @include stitches-icon-set(-47px, -325px, 32px, 32px);
+}
+
+.icon-set-elder-gauntlet-m {
+    @include stitches-icon-set(-89px, -325px, 32px, 32px);
+}
+
+.icon-set-elder-hat-f {
+    @include stitches-icon-set(-131px, -325px, 32px, 32px);
+}
+
+.icon-set-elder-hat-m {
+    @include stitches-icon-set(-173px, -325px, 32px, 32px);
+}
+
+.icon-set-elder-suit-f {
+    @include stitches-icon-set(-215px, -325px, 32px, 32px);
+}
+
+.icon-set-elder-suit-m {
+    @include stitches-icon-set(-257px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-boots-f {
+    @include stitches-icon-set(-299px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-boots-m {
+    @include stitches-icon-set(-341px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-gauntlet-f {
+    @include stitches-icon-set(-383px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-gauntlet-m {
+    @include stitches-icon-set(-425px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-hat-f {
+    @include stitches-icon-set(-467px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-hat-m {
+    @include stitches-icon-set(-509px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-suit-f {
+    @include stitches-icon-set(-551px, -325px, 32px, 32px);
+}
+
+.icon-set-ellis-suit-m {
+    @include stitches-icon-set(-593px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-boots-f {
+    @include stitches-icon-set(-635px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-boots-m {
+    @include stitches-icon-set(-677px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-gauntlet-f {
+    @include stitches-icon-set(-719px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-gauntlet-m {
+    @include stitches-icon-set(-761px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-hat-f {
+    @include stitches-icon-set(-803px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-hat-m {
+    @include stitches-icon-set(-845px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-suit-f {
+    @include stitches-icon-set(-887px, -325px, 32px, 32px);
+}
+
+.icon-set-explorer-suit-m {
+    @include stitches-icon-set(-929px, -325px, 32px, 32px);
+}
+
+.icon-set-extro-boots-f {
+    @include stitches-icon-set(-971px, -325px, 32px, 32px);
+}
+
+.icon-set-extro-boots-m {
+    @include stitches-icon-set(-5px, -367px, 32px, 32px);
+}
+
+.icon-set-extro-gauntlet-f {
+    @include stitches-icon-set(-47px, -367px, 32px, 32px);
+}
+
+.icon-set-extro-gauntlet-m {
+    @include stitches-icon-set(-89px, -367px, 32px, 32px);
+}
+
+.icon-set-extro-hat-f {
+    @include stitches-icon-set(-131px, -367px, 32px, 32px);
+}
+
+.icon-set-extro-hat-m {
+    @include stitches-icon-set(-173px, -367px, 32px, 32px);
+}
+
+.icon-set-extro-suit-f {
+    @include stitches-icon-set(-215px, -367px, 32px, 32px);
+}
+
+.icon-set-extro-suit-m {
+    @include stitches-icon-set(-257px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-boots-f {
+    @include stitches-icon-set(-299px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-boots-m {
+    @include stitches-icon-set(-341px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-gauntlet-f {
+    @include stitches-icon-set(-383px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-gauntlet-m {
+    @include stitches-icon-set(-425px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-hat-f {
+    @include stitches-icon-set(-467px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-hat-m {
+    @include stitches-icon-set(-509px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-suit-f {
+    @include stitches-icon-set(-551px, -367px, 32px, 32px);
+}
+
+.icon-set-geniun-suit-m {
+    @include stitches-icon-set(-593px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-boots-f {
+    @include stitches-icon-set(-635px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-boots-m {
+    @include stitches-icon-set(-677px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-gauntlet-f {
+    @include stitches-icon-set(-719px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-gauntlet-m {
+    @include stitches-icon-set(-761px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-hat-f {
+    @include stitches-icon-set(-803px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-hat-m {
+    @include stitches-icon-set(-845px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-suit-f {
+    @include stitches-icon-set(-887px, -367px, 32px, 32px);
+}
+
+.icon-set-grim-suit-m {
+    @include stitches-icon-set(-929px, -367px, 32px, 32px);
+}
+
+.icon-set-haganes-boots-f {
+    @include stitches-icon-set(-971px, -367px, 32px, 32px);
+}
+
+.icon-set-haganes-boots-m {
+    @include stitches-icon-set(-5px, -409px, 32px, 32px);
+}
+
+.icon-set-haganes-gauntlet-f {
+    @include stitches-icon-set(-47px, -409px, 33px, 33px);
+}
+
+.icon-set-haganes-gauntlet-m {
+    @include stitches-icon-set(-90px, -409px, 33px, 33px);
+}
+
+.icon-set-haganes-hat-f {
+    @include stitches-icon-set(-133px, -409px, 32px, 32px);
+}
+
+.icon-set-haganes-hat-m {
+    @include stitches-icon-set(-175px, -409px, 32px, 32px);
+}
+
+.icon-set-haganes-suit-f {
+    @include stitches-icon-set(-217px, -409px, 32px, 32px);
+}
+
+.icon-set-haganes-suit-m {
+    @include stitches-icon-set(-259px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-boots-f {
+    @include stitches-icon-set(-301px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-boots-m {
+    @include stitches-icon-set(-343px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-gauntlet-f {
+    @include stitches-icon-set(-385px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-gauntlet-m {
+    @include stitches-icon-set(-427px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-hat-f {
+    @include stitches-icon-set(-469px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-hat-m {
+    @include stitches-icon-set(-511px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-suit-f {
+    @include stitches-icon-set(-553px, -409px, 32px, 32px);
+}
+
+.icon-set-jesis-suit-m {
+    @include stitches-icon-set(-595px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-boots-f {
+    @include stitches-icon-set(-637px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-boots-m {
+    @include stitches-icon-set(-679px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-gauntlet-f {
+    @include stitches-icon-set(-721px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-gauntlet-m {
+    @include stitches-icon-set(-763px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-hat-f {
+    @include stitches-icon-set(-805px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-hat-m {
+    @include stitches-icon-set(-847px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-suit-f {
+    @include stitches-icon-set(-889px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-arcanist-suit-m {
+    @include stitches-icon-set(-931px, -409px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-boots-f {
+    @include stitches-icon-set(-5px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-boots-m {
+    @include stitches-icon-set(-133px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-gauntlet-f {
+    @include stitches-icon-set(-175px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-gauntlet-m {
+    @include stitches-icon-set(-217px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-hat-f {
+    @include stitches-icon-set(-259px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-hat-m {
+    @include stitches-icon-set(-301px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-suit-f {
+    @include stitches-icon-set(-343px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-crackshooter-suit-m {
+    @include stitches-icon-set(-385px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-boots-f {
+    @include stitches-icon-set(-427px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-boots-m {
+    @include stitches-icon-set(-469px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-gauntlet-f {
+    @include stitches-icon-set(-511px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-gauntlet-m {
+    @include stitches-icon-set(-553px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-hat-f {
+    @include stitches-icon-set(-595px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-hat-m {
+    @include stitches-icon-set(-637px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-suit-f {
+    @include stitches-icon-set(-679px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-forcemaster-suit-m {
+    @include stitches-icon-set(-721px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-boots-f {
+    @include stitches-icon-set(-763px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-boots-m {
+    @include stitches-icon-set(-805px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-gauntlet-f {
+    @include stitches-icon-set(-847px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-gauntlet-m {
+    @include stitches-icon-set(-889px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-hat-f {
+    @include stitches-icon-set(-931px, -451px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-hat-m {
+    @include stitches-icon-set(-5px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-suit-f {
+    @include stitches-icon-set(-47px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-harlequin-suit-m {
+    @include stitches-icon-set(-89px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-boots-f {
+    @include stitches-icon-set(-131px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-boots-m {
+    @include stitches-icon-set(-173px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-gauntlet-f {
+    @include stitches-icon-set(-215px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-gauntlet-m {
+    @include stitches-icon-set(-257px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-hat-f {
+    @include stitches-icon-set(-299px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-hat-m {
+    @include stitches-icon-set(-341px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-suit-f {
+    @include stitches-icon-set(-383px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-mentalist-suit-m {
+    @include stitches-icon-set(-425px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-boots-f {
+    @include stitches-icon-set(-467px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-boots-m {
+    @include stitches-icon-set(-509px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-gauntlet-f {
+    @include stitches-icon-set(-551px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-gauntlet-m {
+    @include stitches-icon-set(-593px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-hat-f {
+    @include stitches-icon-set(-635px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-hat-m {
+    @include stitches-icon-set(-677px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-suit-f {
+    @include stitches-icon-set(-719px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-seraph-suit-m {
+    @include stitches-icon-set(-761px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-boots-f {
+    @include stitches-icon-set(-803px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-boots-m {
+    @include stitches-icon-set(-845px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-gauntlet-f {
+    @include stitches-icon-set(-887px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-gauntlet-m {
+    @include stitches-icon-set(-929px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-hat-f {
+    @include stitches-icon-set(-971px, -493px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-hat-m {
+    @include stitches-icon-set(-5px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-suit-f {
+    @include stitches-icon-set(-47px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-slayer-suit-m {
+    @include stitches-icon-set(-89px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-boots-f {
+    @include stitches-icon-set(-131px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-boots-m {
+    @include stitches-icon-set(-173px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-gauntlet-f {
+    @include stitches-icon-set(-215px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-gauntlet-m {
+    @include stitches-icon-set(-257px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-hat-f {
+    @include stitches-icon-set(-299px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-hat-m {
+    @include stitches-icon-set(-341px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-suit-f {
+    @include stitches-icon-set(-383px, -535px, 32px, 32px);
+}
+
+.icon-set-kalgas-templar-suit-m {
+    @include stitches-icon-set(-425px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-boots-f {
+    @include stitches-icon-set(-467px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-boots-m {
+    @include stitches-icon-set(-509px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-gauntlet-f {
+    @include stitches-icon-set(-551px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-gauntlet-m {
+    @include stitches-icon-set(-593px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-hat-f {
+    @include stitches-icon-set(-635px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-hat-m {
+    @include stitches-icon-set(-677px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-suit-f {
+    @include stitches-icon-set(-719px, -535px, 32px, 32px);
+}
+
+.icon-set-katria-suit-m {
+    @include stitches-icon-set(-761px, -535px, 32px, 32px);
+}
+
+.icon-set-knighert-boots-f {
+    @include stitches-icon-set(-803px, -535px, 32px, 32px);
+}
+
+.icon-set-knighert-boots-m {
+    @include stitches-icon-set(-845px, -535px, 32px, 32px);
+}
+
+.icon-set-knighert-gauntlet-f {
+    @include stitches-icon-set(-887px, -535px, 32px, 32px);
+}
+
+.icon-set-knighert-gauntlet-m {
+    @include stitches-icon-set(-929px, -535px, 32px, 32px);
+}
+
+.icon-set-knighert-hat-f {
+    @include stitches-icon-set(-971px, -535px, 32px, 32px);
+}
+
+.icon-set-knighert-hat-m {
+    @include stitches-icon-set(-5px, -577px, 32px, 32px);
+}
+
+.icon-set-knighert-suit-f {
+    @include stitches-icon-set(-47px, -577px, 32px, 32px);
+}
+
+.icon-set-knighert-suit-m {
+    @include stitches-icon-set(-89px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-boots-f {
+    @include stitches-icon-set(-131px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-boots-m {
+    @include stitches-icon-set(-173px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-gauntlet-f {
+    @include stitches-icon-set(-215px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-gauntlet-m {
+    @include stitches-icon-set(-257px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-hat-f {
+    @include stitches-icon-set(-299px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-hat-m {
+    @include stitches-icon-set(-341px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-suit-f {
+    @include stitches-icon-set(-383px, -577px, 32px, 32px);
+}
+
+.icon-set-mekaron-suit-m {
+    @include stitches-icon-set(-425px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-boots-f {
+    @include stitches-icon-set(-467px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-boots-m {
+    @include stitches-icon-set(-509px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-gauntlet-f {
+    @include stitches-icon-set(-551px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-gauntlet-m {
+    @include stitches-icon-set(-593px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-hat-f {
+    @include stitches-icon-set(-635px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-hat-m {
+    @include stitches-icon-set(-677px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-suit-f {
+    @include stitches-icon-set(-719px, -577px, 32px, 32px);
+}
+
+.icon-set-miracle-suit-m {
+    @include stitches-icon-set(-761px, -577px, 32px, 32px);
+}
+
+.icon-set-myuran-boots-f {
+    @include stitches-icon-set(-803px, -577px, 32px, 32px);
+}
+
+.icon-set-myuran-boots-m {
+    @include stitches-icon-set(-845px, -577px, 32px, 32px);
+}
+
+.icon-set-myuran-gauntlet-f {
+    @include stitches-icon-set(-887px, -577px, 32px, 32px);
+}
+
+.icon-set-myuran-gauntlet-m {
+    @include stitches-icon-set(-929px, -577px, 32px, 32px);
+}
+
+.icon-set-myuran-hat-f {
+    @include stitches-icon-set(-971px, -577px, 32px, 32px);
+}
+
+.icon-set-myuran-hat-m {
+    @include stitches-icon-set(-5px, -619px, 32px, 32px);
+}
+
+.icon-set-myuran-suit-f {
+    @include stitches-icon-set(-47px, -619px, 32px, 32px);
+}
+
+.icon-set-myuran-suit-m {
+    @include stitches-icon-set(-89px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-boots-f {
+    @include stitches-icon-set(-131px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-boots-m {
+    @include stitches-icon-set(-173px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-gauntlet-f {
+    @include stitches-icon-set(-215px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-gauntlet-m {
+    @include stitches-icon-set(-257px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-hat-f {
+    @include stitches-icon-set(-299px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-hat-m {
+    @include stitches-icon-set(-341px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-suit-f {
+    @include stitches-icon-set(-383px, -619px, 32px, 32px);
+}
+
+.icon-set-nanemvis-suit-m {
+    @include stitches-icon-set(-425px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-boots-f {
+    @include stitches-icon-set(-467px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-boots-m {
+    @include stitches-icon-set(-509px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-gauntlet-f {
+    @include stitches-icon-set(-551px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-gauntlet-m {
+    @include stitches-icon-set(-593px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-hat-f {
+    @include stitches-icon-set(-635px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-hat-m {
+    @include stitches-icon-set(-677px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-suit-f {
+    @include stitches-icon-set(-719px, -619px, 32px, 32px);
+}
+
+.icon-set-neclus-suit-m {
+    @include stitches-icon-set(-761px, -619px, 32px, 32px);
+}
+
+.icon-set-neis-boots-f {
+    @include stitches-icon-set(-803px, -619px, 32px, 32px);
+}
+
+.icon-set-neis-boots-m {
+    @include stitches-icon-set(-845px, -619px, 32px, 32px);
+}
+
+.icon-set-neis-gauntlet-f {
+    @include stitches-icon-set(-887px, -619px, 32px, 32px);
+}
+
+.icon-set-neis-gauntlet-m {
+    @include stitches-icon-set(-929px, -619px, 32px, 32px);
+}
+
+.icon-set-neis-hat-f {
+    @include stitches-icon-set(-971px, -619px, 32px, 32px);
+}
+
+.icon-set-neis-hat-m {
+    @include stitches-icon-set(-5px, -661px, 32px, 32px);
+}
+
+.icon-set-neis-suit-f {
+    @include stitches-icon-set(-47px, -661px, 32px, 32px);
+}
+
+.icon-set-neis-suit-m {
+    @include stitches-icon-set(-89px, -661px, 32px, 32px);
+}
+
+.icon-set-niz-boots-f {
+    @include stitches-icon-set(-131px, -661px, 41px, 35px);
+}
+
+.icon-set-niz-boots-m {
+    @include stitches-icon-set(-182px, -661px, 32px, 32px);
+}
+
+.icon-set-niz-gauntlet-f {
+    @include stitches-icon-set(-224px, -661px, 41px, 35px);
+}
+
+.icon-set-niz-gauntlet-m {
+    @include stitches-icon-set(-275px, -661px, 32px, 32px);
+}
+
+.icon-set-niz-helmet-f {
+    @include stitches-icon-set(-317px, -661px, 41px, 35px);
+}
+
+.icon-set-niz-helmet-m {
+    @include stitches-icon-set(-368px, -661px, 32px, 32px);
+}
+
+.icon-set-niz-suit-f {
+    @include stitches-icon-set(-410px, -661px, 41px, 35px);
+}
+
+.icon-set-niz-suit-m {
+    @include stitches-icon-set(-461px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-boots-f {
+    @include stitches-icon-set(-503px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-boots-m {
+    @include stitches-icon-set(-545px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-gauntlet-f {
+    @include stitches-icon-set(-587px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-gauntlet-m {
+    @include stitches-icon-set(-629px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-hat-f {
+    @include stitches-icon-set(-671px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-hat-m {
+    @include stitches-icon-set(-713px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-suit-f {
+    @include stitches-icon-set(-755px, -661px, 32px, 32px);
+}
+
+.icon-set-nox-suit-m {
+    @include stitches-icon-set(-797px, -661px, 32px, 32px);
+}
+
+.icon-set-okas-boots-f {
+    @include stitches-icon-set(-839px, -661px, 32px, 32px);
+}
+
+.icon-set-okas-boots-m {
+    @include stitches-icon-set(-881px, -661px, 32px, 32px);
+}
+
+.icon-set-okas-gauntlet-f {
+    @include stitches-icon-set(-923px, -661px, 32px, 32px);
+}
+
+.icon-set-okas-gauntlet-m {
+    @include stitches-icon-set(-965px, -661px, 32px, 32px);
+}
+
+.icon-set-okas-hat-f {
+    @include stitches-icon-set(-5px, -703px, 32px, 32px);
+}
+
+.icon-set-okas-hat-m {
+    @include stitches-icon-set(-47px, -703px, 32px, 32px);
+}
+
+.icon-set-okas-suit-f {
+    @include stitches-icon-set(-89px, -703px, 32px, 32px);
+}
+
+.icon-set-okas-suit-m {
+    @include stitches-icon-set(-182px, -703px, 32px, 32px);
+}
+
+.icon-set-paipol-knuckle {
+    @include stitches-icon-set(-275px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-boots-f {
+    @include stitches-icon-set(-368px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-boots-m {
+    @include stitches-icon-set(-461px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-gauntlet-f {
+    @include stitches-icon-set(-503px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-gauntlet-m {
+    @include stitches-icon-set(-545px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-hat-f {
+    @include stitches-icon-set(-587px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-hat-m {
+    @include stitches-icon-set(-629px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-suit-f {
+    @include stitches-icon-set(-671px, -703px, 32px, 32px);
+}
+
+.icon-set-panggril-suit-m {
+    @include stitches-icon-set(-713px, -703px, 32px, 32px);
+}
+
+.icon-set-paxt-boots-f {
+    @include stitches-icon-set(-755px, -703px, 32px, 32px);
+}
+
+.icon-set-paxt-boots-m {
+    @include stitches-icon-set(-797px, -703px, 32px, 32px);
+}
+
+.icon-set-paxt-gauntlet-f {
+    @include stitches-icon-set(-839px, -703px, 32px, 32px);
+}
+
+.icon-set-paxt-gauntlet-m {
+    @include stitches-icon-set(-881px, -703px, 32px, 32px);
+}
+
+.icon-set-paxt-hat-f {
+    @include stitches-icon-set(-923px, -703px, 32px, 32px);
+}
+
+.icon-set-paxt-hat-m {
+    @include stitches-icon-set(-965px, -703px, 32px, 32px);
+}
+
+.icon-set-paxt-suit-f {
+    @include stitches-icon-set(-5px, -745px, 32px, 32px);
+}
+
+.icon-set-paxt-suit-m {
+    @include stitches-icon-set(-47px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-boots-f {
+    @include stitches-icon-set(-89px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-boots-m {
+    @include stitches-icon-set(-131px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-gauntlet-f {
+    @include stitches-icon-set(-173px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-gauntlet-m {
+    @include stitches-icon-set(-215px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-hat-f {
+    @include stitches-icon-set(-257px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-hat-m {
+    @include stitches-icon-set(-299px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-suit-f {
+    @include stitches-icon-set(-341px, -745px, 32px, 32px);
+}
+
+.icon-set-psykon-suit-m {
+    @include stitches-icon-set(-383px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-boots-f {
+    @include stitches-icon-set(-425px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-boots-m {
+    @include stitches-icon-set(-467px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-gauntlet-f {
+    @include stitches-icon-set(-509px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-gauntlet-m {
+    @include stitches-icon-set(-551px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-hat-f {
+    @include stitches-icon-set(-593px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-hat-m {
+    @include stitches-icon-set(-635px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-suit-f {
+    @include stitches-icon-set(-677px, -745px, 32px, 32px);
+}
+
+.icon-set-raze-suit-m {
+    @include stitches-icon-set(-719px, -745px, 32px, 32px);
+}
+
+.icon-set-rescorn-boots-f {
+    @include stitches-icon-set(-761px, -745px, 32px, 32px);
+}
+
+.icon-set-rescorn-boots-m {
+    @include stitches-icon-set(-803px, -745px, 32px, 32px);
+}
+
+.icon-set-rescorn-gauntlet-f {
+    @include stitches-icon-set(-845px, -745px, 32px, 32px);
+}
+
+.icon-set-rescorn-gauntlet-m {
+    @include stitches-icon-set(-887px, -745px, 32px, 32px);
+}
+
+.icon-set-rescorn-hat-f {
+    @include stitches-icon-set(-929px, -745px, 32px, 32px);
+}
+
+.icon-set-rescorn-hat-m {
+    @include stitches-icon-set(-971px, -745px, 32px, 32px);
+}
+
+.icon-set-rescorn-suit-f {
+    @include stitches-icon-set(-5px, -787px, 32px, 32px);
+}
+
+.icon-set-rescorn-suit-m {
+    @include stitches-icon-set(-47px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-boots-f {
+    @include stitches-icon-set(-89px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-boots-m {
+    @include stitches-icon-set(-131px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-gauntlet-f {
+    @include stitches-icon-set(-173px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-gauntlet-m {
+    @include stitches-icon-set(-215px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-hat-f {
+    @include stitches-icon-set(-257px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-hat-m {
+    @include stitches-icon-set(-299px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-suit-f {
+    @include stitches-icon-set(-341px, -787px, 32px, 32px);
+}
+
+.icon-set-restra-suit-m {
+    @include stitches-icon-set(-383px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-boots-f {
+    @include stitches-icon-set(-425px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-boots-m {
+    @include stitches-icon-set(-467px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-gauntlet-f {
+    @include stitches-icon-set(-509px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-gauntlet-m {
+    @include stitches-icon-set(-551px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-hat-f {
+    @include stitches-icon-set(-593px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-hat-m {
+    @include stitches-icon-set(-635px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-suit-f {
+    @include stitches-icon-set(-677px, -787px, 32px, 32px);
+}
+
+.icon-set-restron-suit-m {
+    @include stitches-icon-set(-719px, -787px, 32px, 32px);
+}
+
+.icon-set-revenio-boots-f {
+    @include stitches-icon-set(-761px, -787px, 32px, 32px);
+}
+
+.icon-set-revenio-boots-m {
+    @include stitches-icon-set(-803px, -787px, 32px, 32px);
+}
+
+.icon-set-revenio-gauntlet-f {
+    @include stitches-icon-set(-845px, -787px, 32px, 32px);
+}
+
+.icon-set-revenio-gauntlet-m {
+    @include stitches-icon-set(-887px, -787px, 32px, 32px);
+}
+
+.icon-set-revenio-hat-f {
+    @include stitches-icon-set(-929px, -787px, 32px, 32px);
+}
+
+.icon-set-revenio-hat-m {
+    @include stitches-icon-set(-971px, -787px, 32px, 32px);
+}
+
+.icon-set-revenio-suit-f {
+    @include stitches-icon-set(-5px, -829px, 32px, 32px);
+}
+
+.icon-set-revenio-suit-m {
+    @include stitches-icon-set(-47px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-boots-f {
+    @include stitches-icon-set(-89px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-boots-m {
+    @include stitches-icon-set(-131px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-gauntlet-f {
+    @include stitches-icon-set(-173px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-gauntlet-m {
+    @include stitches-icon-set(-215px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-hat-f {
+    @include stitches-icon-set(-257px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-hat-m {
+    @include stitches-icon-set(-299px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-suit-f {
+    @include stitches-icon-set(-341px, -829px, 32px, 32px);
+}
+
+.icon-set-rimyth-suit-m {
+    @include stitches-icon-set(-383px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-boots-f {
+    @include stitches-icon-set(-425px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-boots-m {
+    @include stitches-icon-set(-467px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-gauntlet-f {
+    @include stitches-icon-set(-509px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-gauntlet-m {
+    @include stitches-icon-set(-551px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-hat-f {
+    @include stitches-icon-set(-593px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-hat-m {
+    @include stitches-icon-set(-635px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-suit-f {
+    @include stitches-icon-set(-677px, -829px, 32px, 32px);
+}
+
+.icon-set-rody-suit-m {
+    @include stitches-icon-set(-719px, -829px, 32px, 31px);
+}
+
+.icon-set-roshel-boots-f {
+    @include stitches-icon-set(-761px, -829px, 32px, 32px);
+}
+
+.icon-set-roshel-boots-m {
+    @include stitches-icon-set(-803px, -829px, 32px, 32px);
+}
+
+.icon-set-roshel-gauntlet-f {
+    @include stitches-icon-set(-845px, -829px, 32px, 32px);
+}
+
+.icon-set-roshel-gauntlet-m {
+    @include stitches-icon-set(-887px, -829px, 32px, 32px);
+}
+
+.icon-set-roshel-hat-f {
+    @include stitches-icon-set(-929px, -829px, 32px, 32px);
+}
+
+.icon-set-roshel-hat-m {
+    @include stitches-icon-set(-971px, -829px, 32px, 32px);
+}
+
+.icon-set-roshel-suit-f {
+    @include stitches-icon-set(-5px, -871px, 32px, 32px);
+}
+
+.icon-set-roshel-suit-m {
+    @include stitches-icon-set(-47px, -871px, 32px, 32px);
+}
+
+.icon-set-ryad-billposter-hat-f {
+    @include stitches-icon-set(-89px, -871px, 32px, 32px);
+}
+
+.icon-set-ryad-billposter-hat-m {
+    @include stitches-icon-set(-131px, -871px, 32px, 32px);
+}
+
+.icon-set-ryad-knight-hat-f {
+    @include stitches-icon-set(-173px, -871px, 32px, 32px);
+}
+
+.icon-set-ryad-knight-hat-m {
+    @include stitches-icon-set(-215px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-boots-f {
+    @include stitches-icon-set(-257px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-boots-m {
+    @include stitches-icon-set(-299px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-gauntlet-f {
+    @include stitches-icon-set(-341px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-gauntlet-m {
+    @include stitches-icon-set(-383px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-hat-f {
+    @include stitches-icon-set(-425px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-hat-m {
+    @include stitches-icon-set(-467px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-suit-f {
+    @include stitches-icon-set(-509px, -871px, 32px, 32px);
+}
+
+.icon-set-shupon-suit-m {
+    @include stitches-icon-set(-551px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-boots-f {
+    @include stitches-icon-set(-593px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-boots-m {
+    @include stitches-icon-set(-635px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-gauntlet-f {
+    @include stitches-icon-set(-677px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-gauntlet-m {
+    @include stitches-icon-set(-719px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-hat-f {
+    @include stitches-icon-set(-761px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-hat-m {
+    @include stitches-icon-set(-803px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-suit-f {
+    @include stitches-icon-set(-845px, -871px, 32px, 32px);
+}
+
+.icon-set-shurand-suit-m {
+    @include stitches-icon-set(-887px, -871px, 32px, 32px);
+}
+
+.icon-set-shurian-boots-f {
+    @include stitches-icon-set(-929px, -871px, 32px, 32px);
+}
+
+.icon-set-shurian-boots-m {
+    @include stitches-icon-set(-971px, -871px, 32px, 32px);
+}
+
+.icon-set-shurian-gauntlet-f {
+    @include stitches-icon-set(-5px, -913px, 32px, 32px);
+}
+
+.icon-set-shurian-gauntlet-m {
+    @include stitches-icon-set(-47px, -913px, 32px, 32px);
+}
+
+.icon-set-shurian-hat-f {
+    @include stitches-icon-set(-89px, -913px, 32px, 32px);
+}
+
+.icon-set-shurian-hat-m {
+    @include stitches-icon-set(-131px, -913px, 32px, 32px);
+}
+
+.icon-set-shurian-suit-f {
+    @include stitches-icon-set(-173px, -913px, 32px, 32px);
+}
+
+.icon-set-shurian-suit-m {
+    @include stitches-icon-set(-215px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-boots-f {
+    @include stitches-icon-set(-257px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-boots-m {
+    @include stitches-icon-set(-299px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-gauntlet-f {
+    @include stitches-icon-set(-341px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-gauntlet-m {
+    @include stitches-icon-set(-383px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-helmet-f {
+    @include stitches-icon-set(-425px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-helmet-m {
+    @include stitches-icon-set(-467px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-suit-f {
+    @include stitches-icon-set(-509px, -913px, 32px, 32px);
+}
+
+.icon-set-sorain-suit-m {
+    @include stitches-icon-set(-551px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-boots-f {
+    @include stitches-icon-set(-593px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-boots-m {
+    @include stitches-icon-set(-635px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-gauntlet-f {
+    @include stitches-icon-set(-677px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-gauntlet-m {
+    @include stitches-icon-set(-719px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-hat-f {
+    @include stitches-icon-set(-761px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-hat-m {
+    @include stitches-icon-set(-803px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-suit-f {
+    @include stitches-icon-set(-845px, -913px, 32px, 32px);
+}
+
+.icon-set-stinger-suit-m {
+    @include stitches-icon-set(-887px, -913px, 32px, 32px);
+}
+
+.icon-set-talin-boots-f {
+    @include stitches-icon-set(-929px, -913px, 32px, 32px);
+}
+
+.icon-set-talin-boots-m {
+    @include stitches-icon-set(-971px, -913px, 32px, 32px);
+}
+
+.icon-set-talin-gauntlet-f {
+    @include stitches-icon-set(-5px, -955px, 32px, 32px);
+}
+
+.icon-set-talin-gauntlet-m {
+    @include stitches-icon-set(-47px, -955px, 32px, 32px);
+}
+
+.icon-set-talin-hat-f {
+    @include stitches-icon-set(-89px, -955px, 32px, 32px);
+}
+
+.icon-set-talin-hat-m {
+    @include stitches-icon-set(-131px, -955px, 32px, 32px);
+}
+
+.icon-set-talin-suit-f {
+    @include stitches-icon-set(-173px, -955px, 32px, 32px);
+}
+
+.icon-set-talin-suit-m {
+    @include stitches-icon-set(-215px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-boots-f {
+    @include stitches-icon-set(-257px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-boots-m {
+    @include stitches-icon-set(-299px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-gauntlet-f {
+    @include stitches-icon-set(-341px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-gauntlet-m {
+    @include stitches-icon-set(-383px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-helmet-f {
+    @include stitches-icon-set(-425px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-helmet-m {
+    @include stitches-icon-set(-467px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-suit-f {
+    @include stitches-icon-set(-509px, -955px, 32px, 32px);
+}
+
+.icon-set-teba-suit-m {
+    @include stitches-icon-set(-551px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-boots-f {
+    @include stitches-icon-set(-593px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-boots-m {
+    @include stitches-icon-set(-635px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-gauntlet-f {
+    @include stitches-icon-set(-677px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-gauntlet-m {
+    @include stitches-icon-set(-719px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-hat-f {
+    @include stitches-icon-set(-761px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-hat-m {
+    @include stitches-icon-set(-803px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-suit-f {
+    @include stitches-icon-set(-845px, -955px, 32px, 32px);
+}
+
+.icon-set-twilight-suit-m {
+    @include stitches-icon-set(-887px, -955px, 32px, 32px);
+}
+
+.icon-set-tyrent-boots-f {
+    @include stitches-icon-set(-929px, -955px, 32px, 32px);
+}
+
+.icon-set-tyrent-boots-m {
+    @include stitches-icon-set(-971px, -955px, 32px, 32px);
+}
+
+.icon-set-tyrent-gauntlet-f {
+    @include stitches-icon-set(-1013px, -5px, 32px, 32px);
+}
+
+.icon-set-tyrent-gauntlet-m {
+    @include stitches-icon-set(-1013px, -47px, 32px, 32px);
+}
+
+.icon-set-tyrent-hat-f {
+    @include stitches-icon-set(-991px, -89px, 32px, 32px);
+}
+
+.icon-set-tyrent-hat-m {
+    @include stitches-icon-set(-991px, -131px, 32px, 32px);
+}
+
+.icon-set-tyrent-suit-f {
+    @include stitches-icon-set(-991px, -173px, 32px, 32px);
+}
+
+.icon-set-tyrent-suit-m {
+    @include stitches-icon-set(-1013px, -215px, 32px, 32px);
+}
+
+.icon-set-vagrantus-boots-f {
+    @include stitches-icon-set(-1013px, -257px, 32px, 32px);
+}
+
+.icon-set-vagrantus-boots-m {
+    @include stitches-icon-set(-1013px, -299px, 32px, 32px);
+}
+
+.icon-set-vagrantus-gauntlet-f {
+    @include stitches-icon-set(-1013px, -341px, 32px, 32px);
+}
+
+.icon-set-vagrantus-gauntlet-m {
+    @include stitches-icon-set(-1013px, -383px, 32px, 32px);
+}
+
+.icon-set-vagrantus-hat-f {
+    @include stitches-icon-set(-973px, -425px, 32px, 32px);
+}
+
+.icon-set-vagrantus-hat-m {
+    @include stitches-icon-set(-1013px, -467px, 32px, 32px);
+}
+
+.icon-set-vagrantus-suit-f {
+    @include stitches-icon-set(-1013px, -509px, 32px, 32px);
+}
+
+.icon-set-vagrantus-suit-m {
+    @include stitches-icon-set(-1013px, -551px, 32px, 32px);
+}
+
+.icon-set-velox-boots-f {
+    @include stitches-icon-set(-1013px, -593px, 32px, 32px);
+}
+
+.icon-set-velox-boots-m {
+    @include stitches-icon-set(-1013px, -635px, 32px, 32px);
+}
+
+.icon-set-velox-gauntlet-f {
+    @include stitches-icon-set(-1007px, -677px, 32px, 32px);
+}
+
+.icon-set-velox-gauntlet-m {
+    @include stitches-icon-set(-1013px, -719px, 32px, 32px);
+}
+
+.icon-set-velox-hat-f {
+    @include stitches-icon-set(-1013px, -761px, 32px, 32px);
+}
+
+.icon-set-velox-hat-m {
+    @include stitches-icon-set(-1013px, -803px, 32px, 32px);
+}
+
+.icon-set-velox-suit-f {
+    @include stitches-icon-set(-1013px, -845px, 32px, 32px);
+}
+
+.icon-set-velox-suit-m {
+    @include stitches-icon-set(-1013px, -887px, 32px, 32px);
+}
+
+.icon-set-warpon-boots-f {
+    @include stitches-icon-set(-1013px, -929px, 32px, 32px);
+}
+
+.icon-set-warpon-boots-m {
+    @include stitches-icon-set(-1013px, -971px, 32px, 32px);
+}
+
+.icon-set-warpon-gauntlet-f {
+    @include stitches-icon-set(-5px, -1013px, 32px, 32px);
+}
+
+.icon-set-warpon-gauntlet-m {
+    @include stitches-icon-set(-47px, -1013px, 32px, 32px);
+}
+
+.icon-set-warpon-hat-f {
+    @include stitches-icon-set(-89px, -1013px, 32px, 32px);
+}
+
+.icon-set-warpon-hat-m {
+    @include stitches-icon-set(-131px, -1013px, 32px, 32px);
+}
+
+.icon-set-warpon-suit-f {
+    @include stitches-icon-set(-173px, -1013px, 32px, 32px);
+}
+
+.icon-set-warpon-suit-m {
+    @include stitches-icon-set(-215px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-boots-f {
+    @include stitches-icon-set(-257px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-boots-m {
+    @include stitches-icon-set(-299px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-gauntlet-f {
+    @include stitches-icon-set(-341px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-gauntlet-m {
+    @include stitches-icon-set(-383px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-hat-f {
+    @include stitches-icon-set(-425px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-hat-m {
+    @include stitches-icon-set(-467px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-suit-f {
+    @include stitches-icon-set(-509px, -1013px, 32px, 32px);
+}
+
+.icon-set-wedge-suit-m {
+    @include stitches-icon-set(-551px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-boots-f {
+    @include stitches-icon-set(-593px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-boots-m {
+    @include stitches-icon-set(-635px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-gauntlet-f {
+    @include stitches-icon-set(-677px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-gauntlet-m {
+    @include stitches-icon-set(-719px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-hat-f {
+    @include stitches-icon-set(-761px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-hat-m {
+    @include stitches-icon-set(-803px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-suit-f {
+    @include stitches-icon-set(-845px, -1013px, 32px, 32px);
+}
+
+.icon-set-weeshian-suit-m {
+    @include stitches-icon-set(-887px, -1013px, 32px, 32px);
+}
+
+.icon-set-yad-blade-suit-f {
+    @include stitches-icon-set(-929px, -1013px, 32px, 32px);
+}
+
+.icon-set-yad-blade-suit-m {
+    @include stitches-icon-set(-971px, -1013px, 32px, 32px);
+}
+
+@mixin stitches-icon-shield($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-shield.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-shield-ancient-shield {
+    @include stitches-icon-shield(-5px, -5px, 32px, 32px);
+}
+
+.icon-shield-aster-shield {
+    @include stitches-icon-shield(-47px, -5px, 32px, 32px);
+}
+
+.icon-shield-aster-shield-24x24 {
+    @include stitches-icon-shield(-89px, -5px, 24px, 24px);
+}
+
+.icon-shield-avalon-shield {
+    @include stitches-icon-shield(-123px, -5px, 32px, 32px);
+}
+
+.icon-shield-avalon-shield-24x24 {
+    @include stitches-icon-shield(-165px, -5px, 24px, 24px);
+}
+
+.icon-shield-battle-shield {
+    @include stitches-icon-shield(-199px, -5px, 32px, 32px);
+}
+
+.icon-shield-behemoths-forcegem {
+    @include stitches-icon-shield(-5px, -47px, 32px, 32px);
+}
+
+.icon-shield-behemoths-shield {
+    @include stitches-icon-shield(-47px, -47px, 32px, 32px);
+}
+
+.icon-shield-book-of-behemoth {
+    @include stitches-icon-shield(-89px, -47px, 32px, 32px);
+}
+
+.icon-shield-book-of-romen {
+    @include stitches-icon-shield(-131px, -47px, 32px, 32px);
+}
+
+.icon-shield-catepo-shield {
+    @include stitches-icon-shield(-173px, -47px, 32px, 32px);
+}
+
+.icon-shield-coien-shield {
+    @include stitches-icon-shield(-5px, -89px, 32px, 32px);
+}
+
+.icon-shield-comet-shield {
+    @include stitches-icon-shield(-47px, -89px, 32px, 32px);
+}
+
+.icon-shield-forcegem {
+    @include stitches-icon-shield(-89px, -89px, 32px, 32px);
+}
+
+.icon-shield-fury-shield {
+    @include stitches-icon-shield(-131px, -89px, 32px, 32px);
+}
+
+.icon-shield-green-shield {
+    @include stitches-icon-shield(-173px, -89px, 32px, 32px);
+}
+
+.icon-shield-gyro-shield {
+    @include stitches-icon-shield(-5px, -131px, 32px, 32px);
+}
+
+.icon-shield-heavy-shield {
+    @include stitches-icon-shield(-47px, -131px, 32px, 32px);
+}
+
+.icon-shield-hileitine-shield {
+    @include stitches-icon-shield(-89px, -131px, 32px, 32px);
+}
+
+.icon-shield-icicle-shield {
+    @include stitches-icon-shield(-131px, -131px, 32px, 32px);
+}
+
+.icon-shield-kite-shield {
+    @include stitches-icon-shield(-173px, -131px, 32px, 32px);
+}
+
+.icon-shield-light-shield {
+    @include stitches-icon-shield(-5px, -173px, 32px, 32px);
+}
+
+.icon-shield-plate-shield {
+    @include stitches-icon-shield(-47px, -173px, 32px, 32px);
+}
+
+.icon-shield-plus-shield {
+    @include stitches-icon-shield(-89px, -173px, 32px, 32px);
+}
+
+.icon-shield-round-shield {
+    @include stitches-icon-shield(-131px, -173px, 32px, 32px);
+}
+
+.icon-shield-rukenshia-shield {
+    @include stitches-icon-shield(-173px, -173px, 32px, 32px);
+}
+
+.icon-shield-sentinel-shield {
+    @include stitches-icon-shield(-241px, -5px, 32px, 32px);
+}
+
+.icon-shield-shield-of-ivillis {
+    @include stitches-icon-shield(-215px, -47px, 32px, 32px);
+}
+
+.icon-shield-shurain-shield {
+    @include stitches-icon-shield(-215px, -89px, 32px, 32px);
+}
+
+.icon-shield-soul-book {
+    @include stitches-icon-shield(-215px, -131px, 32px, 32px);
+}
+
+.icon-shield-soul-forcegem {
+    @include stitches-icon-shield(-215px, -173px, 32px, 32px);
+}
+
+.icon-shield-soul-shield {
+    @include stitches-icon-shield(-5px, -215px, 32px, 32px);
+}
+
+.icon-shield-sparkle-shield {
+    @include stitches-icon-shield(-47px, -215px, 32px, 32px);
+}
+
+.icon-shield-toeffin-shield {
+    @include stitches-icon-shield(-89px, -215px, 32px, 32px);
+}
+
+.icon-shield-turtle-kings-shell {
+    @include stitches-icon-shield(-257px, -47px, 30px, 32px);
+}
+
+.icon-shield-vortex-shield {
+    @include stitches-icon-shield(-131px, -215px, 32px, 32px);
+}
+
+
+@mixin stitches-icon-skill($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-skill.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-skill-accuracy {
+    @include stitches-icon-skill(-5px, -5px, 28px, 28px);
+}
+
+.icon-skill-aimed-shot {
+    @include stitches-icon-skill(-43px, -5px, 28px, 28px);
+}
+
+.icon-skill-anger-of-lord {
+    @include stitches-icon-skill(-81px, -5px, 28px, 28px);
+}
+
+.icon-skill-armor-penetrate {
+    @include stitches-icon-skill(-119px, -5px, 32px, 32px);
+}
+
+.icon-skill-arrow-rain {
+    @include stitches-icon-skill(-161px, -5px, 28px, 28px);
+}
+
+.icon-skill-asalraalaikum {
+    @include stitches-icon-skill(-199px, -5px, 32px, 32px);
+}
+
+.icon-skill-asmodeus {
+    @include stitches-icon-skill(-241px, -5px, 32px, 32px);
+}
+
+.icon-skill-auto-shot {
+    @include stitches-icon-skill(-283px, -5px, 28px, 28px);
+}
+
+.icon-skill-axe-mastery {
+    @include stitches-icon-skill(-321px, -5px, 28px, 28px);
+}
+
+.icon-skill-back-step {
+    @include stitches-icon-skill(-359px, -5px, 32px, 32px);
+}
+
+.icon-skill-baraqijal-esna {
+    @include stitches-icon-skill(-401px, -5px, 32px, 32px);
+}
+
+.icon-skill-beef-up {
+    @include stitches-icon-skill(-5px, -47px, 28px, 28px);
+}
+
+.icon-skill-belial-smashing {
+    @include stitches-icon-skill(-43px, -47px, 32px, 32px);
+}
+
+.icon-skill-berserk {
+    @include stitches-icon-skill(-85px, -47px, 32px, 32px);
+}
+
+.icon-skill-bgvur-tialbold {
+    @include stitches-icon-skill(-127px, -47px, 32px, 32px);
+}
+
+.icon-skill-blade-dance {
+    @include stitches-icon-skill(-169px, -47px, 32px, 32px);
+}
+
+.icon-skill-blazing-sword {
+    @include stitches-icon-skill(-211px, -47px, 28px, 28px);
+}
+
+.icon-skill-bless-of-love {
+    @include stitches-icon-skill(-249px, -47px, 28px, 28px);
+}
+
+.icon-skill-blessing-of-lord {
+    @include stitches-icon-skill(-287px, -47px, 28px, 28px);
+}
+
+.icon-skill-blessing-of-the-wise-man {
+    @include stitches-icon-skill(-325px, -47px, 32px, 32px);
+}
+
+.icon-skill-blindside {
+    @include stitches-icon-skill(-367px, -47px, 28px, 28px);
+}
+
+.icon-skill-blinkpool {
+    @include stitches-icon-skill(-405px, -47px, 28px, 28px);
+}
+
+.icon-skill-blood-fist {
+    @include stitches-icon-skill(-211px, -85px, 32px, 32px);
+}
+
+.icon-skill-bloody-strike {
+    @include stitches-icon-skill(-253px, -85px, 31px, 28px);
+}
+
+.icon-skill-bow-mastery {
+    @include stitches-icon-skill(-5px, -85px, 28px, 28px);
+}
+
+.icon-skill-brandish {
+    @include stitches-icon-skill(-367px, -85px, 32px, 32px);
+}
+
+.icon-skill-burst-crack {
+    @include stitches-icon-skill(-409px, -85px, 28px, 28px);
+}
+
+.icon-skill-call-of-lord {
+    @include stitches-icon-skill(-5px, -123px, 28px, 28px);
+}
+
+.icon-skill-cannonball {
+    @include stitches-icon-skill(-43px, -123px, 28px, 28px);
+}
+
+.icon-skill-cats-reflex {
+    @include stitches-icon-skill(-81px, -123px, 28px, 28px);
+}
+
+.icon-skill-charge {
+    @include stitches-icon-skill(-119px, -123px, 32px, 32px);
+}
+
+.icon-skill-cheer-of-lord {
+    @include stitches-icon-skill(-161px, -123px, 28px, 28px);
+}
+
+.icon-skill-circle-healing {
+    @include stitches-icon-skill(-253px, -123px, 28px, 28px);
+}
+
+.icon-skill-clean-hit {
+    @include stitches-icon-skill(-291px, -123px, 32px, 32px);
+}
+
+.icon-skill-counter-attack {
+    @include stitches-icon-skill(-409px, -123px, 28px, 28px);
+}
+
+.icon-skill-critical-swing {
+    @include stitches-icon-skill(-5px, -161px, 32px, 32px);
+}
+
+.icon-skill-cross-line {
+    @include stitches-icon-skill(-47px, -161px, 28px, 28px);
+}
+
+.icon-skill-cross-strike {
+    @include stitches-icon-skill(-161px, -161px, 32px, 32px);
+}
+
+.icon-skill-dark-illusion {
+    @include stitches-icon-skill(-203px, -161px, 28px, 28px);
+}
+
+.icon-skill-deadly-swing {
+    @include stitches-icon-skill(-241px, -161px, 28px, 28px);
+}
+
+.icon-skill-disenchant {
+    @include stitches-icon-skill(-333px, -161px, 32px, 32px);
+}
+
+.icon-skill-drawing {
+    @include stitches-icon-skill(-375px, -161px, 32px, 32px);
+}
+
+.icon-skill-earth-divider {
+    @include stitches-icon-skill(-417px, -161px, 32px, 32px);
+}
+
+.icon-skill-empower-weapon {
+    @include stitches-icon-skill(-5px, -203px, 28px, 28px);
+}
+
+.icon-skill-enchant-absorb {
+    @include stitches-icon-skill(-43px, -203px, 32px, 32px);
+}
+
+.icon-skill-enchant-blood {
+    @include stitches-icon-skill(-85px, -203px, 32px, 32px);
+}
+
+.icon-skill-enchant-poison {
+    @include stitches-icon-skill(-127px, -203px, 32px, 32px);
+}
+
+.icon-skill-escape {
+    @include stitches-icon-skill(-169px, -203px, 32px, 32px);
+}
+
+.icon-skill-eye-of-hawk {
+    @include stitches-icon-skill(-211px, -203px, 32px, 32px);
+}
+
+.icon-skill-fast-shot {
+    @include stitches-icon-skill(-253px, -203px, 32px, 32px);
+}
+
+.icon-skill-fast-walker {
+    @include stitches-icon-skill(-295px, -203px, 28px, 28px);
+}
+
+.icon-skill-fatal-stab {
+    @include stitches-icon-skill(-333px, -203px, 32px, 32px);
+}
+
+.icon-skill-fire-boomerang {
+    @include stitches-icon-skill(-375px, -203px, 28px, 28px);
+}
+
+.icon-skill-fire-strike {
+    @include stitches-icon-skill(-413px, -203px, 28px, 28px);
+}
+
+.icon-skill-flame-arrow {
+    @include stitches-icon-skill(-375px, -241px, 32px, 32px);
+}
+
+.icon-skill-geburah-tiphreth {
+    @include stitches-icon-skill(-417px, -241px, 32px, 32px);
+}
+
+.icon-skill-guard {
+    @include stitches-icon-skill(-5px, -283px, 32px, 32px);
+}
+
+.icon-skill-guilotine {
+    @include stitches-icon-skill(-5px, -241px, 28px, 28px);
+}
+
+.icon-skill-gvur-tialla {
+    @include stitches-icon-skill(-47px, -283px, 32px, 32px);
+}
+
+.icon-skill-haste {
+    @include stitches-icon-skill(-295px, -241px, 28px, 28px);
+}
+
+.icon-skill-hawk-attack {
+    @include stitches-icon-skill(-89px, -283px, 32px, 32px);
+}
+
+.icon-skill-heal {
+    @include stitches-icon-skill(-131px, -283px, 28px, 28px);
+}
+
+.icon-skill-heal-rain {
+    @include stitches-icon-skill(-169px, -283px, 32px, 32px);
+}
+
+.icon-skill-heap-up {
+    @include stitches-icon-skill(-211px, -283px, 28px, 28px);
+}
+
+.icon-skill-hit-of-penya {
+    @include stitches-icon-skill(-249px, -283px, 32px, 32px);
+}
+
+.icon-skill-holy-cross {
+    @include stitches-icon-skill(-291px, -283px, 32px, 32px);
+}
+
+.icon-skill-holy-guard {
+    @include stitches-icon-skill(-333px, -283px, 32px, 32px);
+}
+
+.icon-skill-hot-air {
+    @include stitches-icon-skill(-375px, -283px, 28px, 28px);
+}
+
+.icon-skill-ice-arrow {
+    @include stitches-icon-skill(-413px, -283px, 32px, 32px);
+}
+
+.icon-skill-ice-missile {
+    @include stitches-icon-skill(-5px, -325px, 28px, 28px);
+}
+
+.icon-skill-junk-arrow {
+    @include stitches-icon-skill(-43px, -325px, 28px, 28px);
+}
+
+.icon-skill-keenwheel {
+    @include stitches-icon-skill(-81px, -325px, 31px, 28px);
+}
+
+.icon-skill-lightning-ball {
+    @include stitches-icon-skill(-122px, -325px, 28px, 28px);
+}
+
+.icon-skill-lightning-palm {
+    @include stitches-icon-skill(-160px, -325px, 28px, 28px);
+}
+
+.icon-skill-lightning-shock {
+    @include stitches-icon-skill(-198px, -325px, 28px, 28px);
+}
+
+.icon-skill-love-of-lord {
+    @include stitches-icon-skill(-236px, -325px, 28px, 28px);
+}
+
+.icon-skill-mental-sign {
+    @include stitches-icon-skill(-274px, -325px, 28px, 28px);
+}
+
+.icon-skill-mental-strike {
+    @include stitches-icon-skill(-312px, -325px, 28px, 28px);
+}
+
+.icon-skill-merkaba-hanzelrusha {
+    @include stitches-icon-skill(-350px, -325px, 32px, 32px);
+}
+
+.icon-skill-miracle-of-love {
+    @include stitches-icon-skill(-392px, -325px, 28px, 28px);
+}
+
+.icon-skill-nature {
+    @include stitches-icon-skill(-430px, -325px, 32px, 32px);
+}
+
+.icon-skill-over-cutter {
+    @include stitches-icon-skill(-5px, -367px, 32px, 32px);
+}
+
+.icon-skill-pain-dealer {
+    @include stitches-icon-skill(-47px, -367px, 32px, 32px);
+}
+
+.icon-skill-pain-reflection {
+    @include stitches-icon-skill(-89px, -367px, 32px, 32px);
+}
+
+.icon-skill-pan-barrier {
+    @include stitches-icon-skill(-131px, -367px, 28px, 28px);
+}
+
+.icon-skill-party-of-lord {
+    @include stitches-icon-skill(-169px, -367px, 28px, 28px);
+}
+
+.icon-skill-patience {
+    @include stitches-icon-skill(-207px, -367px, 28px, 28px);
+}
+
+.icon-skill-perfect-block {
+    @include stitches-icon-skill(-245px, -367px, 28px, 28px);
+}
+
+.icon-skill-piercing-arrow {
+    @include stitches-icon-skill(-283px, -367px, 32px, 32px);
+}
+
+.icon-skill-piercing-serpent {
+    @include stitches-icon-skill(-325px, -367px, 32px, 32px);
+}
+
+.icon-skill-poison-arrow {
+    @include stitches-icon-skill(-367px, -367px, 32px, 32px);
+}
+
+.icon-skill-power-fist {
+    @include stitches-icon-skill(-409px, -367px, 28px, 28px);
+}
+
+.icon-skill-power-of-love {
+    @include stitches-icon-skill(-131px, -405px, 28px, 28px);
+}
+
+.icon-skill-power-stump {
+    @include stitches-icon-skill(-169px, -405px, 32px, 32px);
+}
+
+.icon-skill-powerswing {
+    @include stitches-icon-skill(-211px, -405px, 32px, 32px);
+}
+
+.icon-skill-prevention {
+    @include stitches-icon-skill(-409px, -405px, 28px, 28px);
+}
+
+.icon-skill-protect {
+    @include stitches-icon-skill(-443px, -5px, 32px, 32px);
+}
+
+.icon-skill-protection {
+    @include stitches-icon-skill(-443px, -47px, 28px, 28px);
+}
+
+.icon-skill-pulling {
+    @include stitches-icon-skill(-447px, -85px, 28px, 28px);
+}
+
+.icon-skill-quick-step {
+    @include stitches-icon-skill(-447px, -123px, 28px, 28px);
+}
+
+.icon-skill-rage {
+    @include stitches-icon-skill(-459px, -161px, 32px, 32px);
+}
+
+.icon-skill-reflex-hit {
+    @include stitches-icon-skill(-451px, -203px, 28px, 28px);
+}
+
+.icon-skill-resurrection {
+    @include stitches-icon-skill(-459px, -241px, 28px, 28px);
+}
+
+.icon-skill-return {
+    @include stitches-icon-skill(-459px, -279px, 32px, 32px);
+}
+
+.icon-skill-rock-crash {
+    @include stitches-icon-skill(-472px, -321px, 28px, 28px);
+}
+
+.icon-skill-rooting {
+    @include stitches-icon-skill(-472px, -359px, 28px, 28px);
+}
+
+.icon-skill-shout-of-lord {
+    @include stitches-icon-skill(-447px, -397px, 28px, 28px);
+}
+
+.icon-skill-silence {
+    @include stitches-icon-skill(-5px, -435px, 32px, 32px);
+}
+
+.icon-skill-silent-arrow {
+    @include stitches-icon-skill(-47px, -435px, 32px, 32px);
+}
+
+.icon-skill-silent-shot {
+    @include stitches-icon-skill(-89px, -435px, 28px, 28px);
+}
+
+.icon-skill-silent-strike {
+    @include stitches-icon-skill(-253px, -435px, 32px, 32px);
+}
+
+.icon-skill-slow-step {
+    @include stitches-icon-skill(-295px, -435px, 28px, 28px);
+}
+
+.icon-skill-smite-axe {
+    @include stitches-icon-skill(-333px, -435px, 28px, 28px);
+}
+
+.icon-skill-sneaker {
+    @include stitches-icon-skill(-371px, -435px, 28px, 28px);
+}
+
+.icon-skill-snitch {
+    @include stitches-icon-skill(-447px, -435px, 28px, 28px);
+}
+
+.icon-skill-sonic-blade {
+    @include stitches-icon-skill(-89px, -473px, 32px, 32px);
+}
+
+.icon-skill-sonic-hand {
+    @include stitches-icon-skill(-131px, -473px, 32px, 32px);
+}
+
+.icon-skill-special-bow-mastery {
+    @include stitches-icon-skill(-173px, -473px, 32px, 32px);
+}
+
+.icon-skill-special-hit {
+    @include stitches-icon-skill(-215px, -473px, 28px, 28px);
+}
+
+.icon-skill-special-knuckle-mastery {
+    @include stitches-icon-skill(-295px, -473px, 32px, 32px);
+}
+
+.icon-skill-special-one-handed-mastery {
+    @include stitches-icon-skill(-337px, -473px, 32px, 32px);
+}
+
+.icon-skill-special-two-handed-mastery {
+    @include stitches-icon-skill(-379px, -473px, 32px, 32px);
+}
+
+.icon-skill-special-yoyo-mastery {
+    @include stitches-icon-skill(-421px, -473px, 32px, 32px);
+}
+
+.icon-skill-spike-stone {
+    @include stitches-icon-skill(-463px, -473px, 28px, 28px);
+}
+
+.icon-skill-spiriture-fortune {
+    @include stitches-icon-skill(-485px, -5px, 32px, 32px);
+}
+
+.icon-skill-splash {
+    @include stitches-icon-skill(-481px, -47px, 31px, 28px);
+}
+
+.icon-skill-spring-attack {
+    @include stitches-icon-skill(-485px, -85px, 32px, 32px);
+}
+
+.icon-skill-springwater {
+    @include stitches-icon-skill(-522px, -47px, 28px, 28px);
+}
+
+.icon-skill-stonehand {
+    @include stitches-icon-skill(-501px, -127px, 28px, 28px);
+}
+
+.icon-skill-strongwind {
+    @include stitches-icon-skill(-85px, -165px, 28px, 28px);
+}
+
+.icon-skill-sword-mastery {
+    @include stitches-icon-skill(-123px, -165px, 28px, 28px);
+}
+
+.icon-skill-swordwind {
+    @include stitches-icon-skill(-279px, -165px, 28px, 28px);
+}
+
+.icon-skill-tamping-hole {
+    @include stitches-icon-skill(-501px, -165px, 28px, 28px);
+}
+
+.icon-skill-teleport-of-lord {
+    @include stitches-icon-skill(-489px, -203px, 28px, 28px);
+}
+
+.icon-skill-triple-shot {
+    @include stitches-icon-skill(-501px, -241px, 32px, 32px);
+}
+
+.icon-skill-ultimate-defense {
+    @include stitches-icon-skill(-510px, -283px, 32px, 32px);
+}
+
+.icon-skill-waterball {
+    @include stitches-icon-skill(-510px, -325px, 28px, 28px);
+}
+
+.icon-skill-wind-cutter {
+    @include stitches-icon-skill(-510px, -363px, 28px, 28px);
+}
+
+.icon-skill-yoyo-mastery {
+    @include stitches-icon-skill(-485px, -401px, 28px, 28px);
+}
+
+@mixin stitches-icon-other($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-other.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.icon-other-ancient-battle-rune {
+    @include stitches-icon-other(-5px, -5px, 32px, 32px);
+}
+
+.icon-other-ancient-death-rune {
+    @include stitches-icon-other(-47px, -5px, 32px, 32px);
+}
+
+.icon-other-ancient-life-rune {
+    @include stitches-icon-other(-89px, -5px, 32px, 32px);
+}
+
+.icon-other-ancient-magic-rune {
+    @include stitches-icon-other(-131px, -5px, 32px, 32px);
+}
+
+.icon-other-blue-teddy-bear {
+    @include stitches-icon-other(-173px, -5px, 28px, 35px);
+}
+
+.icon-other-chocolate-cookie {
+    @include stitches-icon-other(-5px, -50px, 40px, 35px);
+}
+
+.icon-other-chocolate-drink {
+    @include stitches-icon-other(-55px, -50px, 36px, 37px);
+}
+
+.icon-other-earth-element {
+    @include stitches-icon-other(-101px, -50px, 32px, 32px);
+}
+
+.icon-other-electric-element {
+    @include stitches-icon-other(-143px, -50px, 32px, 32px);
+}
+
+.icon-other-fire-element {
+    @include stitches-icon-other(-185px, -50px, 32px, 32px);
+}
+
+.icon-other-heart-cracker {
+    @include stitches-icon-other(-101px, -92px, 40px, 40px);
+}
+
+.icon-other-lvl1-bead {
+    @include stitches-icon-other(-151px, -92px, 32px, 31px);
+}
+
+.icon-other-lvl2-bead {
+    @include stitches-icon-other(-193px, -92px, 32px, 31px);
+}
+
+.icon-other-lvl3-bead {
+    @include stitches-icon-other(-5px, -133px, 32px, 31px);
+}
+
+.icon-other-melon-pastry {
+    @include stitches-icon-other(-47px, -133px, 41px, 35px);
+}
+
+.icon-other-milk {
+    @include stitches-icon-other(-151px, -133px, 32px, 35px);
+}
+
+.icon-other-milk-chocolate {
+    @include stitches-icon-other(-5px, -178px, 36px, 35px);
+}
+
+.icon-other-neutral-element {
+    @include stitches-icon-other(-193px, -133px, 32px, 32px);
+}
+
+.icon-other-pink-teddy-bear {
+    @include stitches-icon-other(-98px, -175px, 29px, 35px);
+}
+
+.icon-other-scroll-of-awakening {
+    @include stitches-icon-other(-193px, -175px, 32px, 32px);
+}
+
+.icon-other-scroll-of-cancel-pet-awakening {
+    @include stitches-icon-other(-211px, -5px, 32px, 32px);
+}
+
+.icon-other-scroll-of-pet-awakening {
+    @include stitches-icon-other(-227px, -47px, 32px, 32px);
+}
+
+.icon-other-stat-dice {
+    @include stitches-icon-other(-235px, -89px, 32px, 32px);
+}
+
+.icon-other-transparent {
+    @include stitches-icon-other(-235px, -131px, 20px, 20px);
+}
+
+.icon-other-udi {
+    @include stitches-icon-other(-235px, -161px, 24px, 31px);
+}
+
+.icon-other-valentine-day-chocolate {
+    @include stitches-icon-other(-137px, -202px, 44px, 40px);
+}
+
+.icon-other-water-element {
+    @include stitches-icon-other(-51px, -202px, 32px, 32px);
+}
+
+.icon-other-wind-element {
+    @include stitches-icon-other(-235px, -202px, 32px, 32px);
+}
+
+.icon-other-yellow-teddy-bear {
+    @include stitches-icon-other(-269px, -5px, 29px, 37px);
+}
+
+@mixin stitches-icon-weapon($x: 0, $y: 0, $width: 0, $height: 0) {
+    background-position: $x $y;
+    width: $width;
+    height: $height;
+    background-image: url(/wp-content/static/spritesheet-weapon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+
+.icon-weapon-adaptizer-sword {
+    @include stitches-icon-weapon(-5px, -5px, 32px, 32px);
+}
+
+.icon-weapon-addself-staff {
+    @include stitches-icon-weapon(-47px, -5px, 32px, 32px);
+}
+
+.icon-weapon-akane-yoyo {
+    @include stitches-icon-weapon(-89px, -5px, 32px, 32px);
+}
+
+.icon-weapon-anakun-yoyo {
+    @include stitches-icon-weapon(-131px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-axe {
+    @include stitches-icon-weapon(-173px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-big-axe {
+    @include stitches-icon-weapon(-215px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-big-sword {
+    @include stitches-icon-weapon(-257px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-bow {
+    @include stitches-icon-weapon(-299px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-knuckle {
+    @include stitches-icon-weapon(-341px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-knuckle-24x24 {
+    @include stitches-icon-weapon(-383px, -5px, 24px, 24px);
+}
+
+.icon-weapon-ancient-staff {
+    @include stitches-icon-weapon(-417px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-stick {
+    @include stitches-icon-weapon(-459px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-sword {
+    @include stitches-icon-weapon(-501px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-wand {
+    @include stitches-icon-weapon(-543px, -5px, 32px, 32px);
+}
+
+.icon-weapon-ancient-wand-24x24 {
+    @include stitches-icon-weapon(-585px, -5px, 24px, 24px);
+}
+
+.icon-weapon-ancient-yoyo {
+    @include stitches-icon-weapon(-619px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-axe {
+    @include stitches-icon-weapon(-661px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-big-axe {
+    @include stitches-icon-weapon(-703px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-big-sword {
+    @include stitches-icon-weapon(-745px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-bow {
+    @include stitches-icon-weapon(-787px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-knuckle {
+    @include stitches-icon-weapon(-829px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-knuckle-24x24 {
+    @include stitches-icon-weapon(-871px, -5px, 24px, 24px);
+}
+
+.icon-weapon-angels-staff {
+    @include stitches-icon-weapon(-905px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-stick {
+    @include stitches-icon-weapon(-947px, -5px, 32px, 32px);
+}
+
+.icon-weapon-angels-sword {
+    @include stitches-icon-weapon(-5px, -47px, 32px, 32px);
+}
+
+.icon-weapon-angels-wand {
+    @include stitches-icon-weapon(-47px, -47px, 32px, 32px);
+}
+
+.icon-weapon-angels-wand-24x24 {
+    @include stitches-icon-weapon(-89px, -47px, 24px, 24px);
+}
+
+.icon-weapon-angels-yoyo {
+    @include stitches-icon-weapon(-123px, -47px, 32px, 32px);
+}
+
+.icon-weapon-appel-knuckle {
+    @include stitches-icon-weapon(-165px, -47px, 32px, 32px);
+}
+
+.icon-weapon-appel-knuckle-24x24 {
+    @include stitches-icon-weapon(-207px, -47px, 24px, 24px);
+}
+
+.icon-weapon-arcadia-wand {
+    @include stitches-icon-weapon(-241px, -47px, 32px, 32px);
+}
+
+.icon-weapon-arcadia-wand-24x24 {
+    @include stitches-icon-weapon(-283px, -47px, 24px, 24px);
+}
+
+.icon-weapon-ardalin-axe {
+    @include stitches-icon-weapon(-317px, -47px, 32px, 32px);
+}
+
+.icon-weapon-aris-wand {
+    @include stitches-icon-weapon(-359px, -47px, 32px, 32px);
+}
+
+.icon-weapon-aris-wand-24x24 {
+    @include stitches-icon-weapon(-401px, -47px, 24px, 24px);
+}
+
+.icon-weapon-arkon-sword {
+    @include stitches-icon-weapon(-435px, -47px, 32px, 32px);
+}
+
+.icon-weapon-astrol-staff {
+    @include stitches-icon-weapon(-477px, -47px, 32px, 32px);
+}
+
+.icon-weapon-avnition-axe {
+    @include stitches-icon-weapon(-519px, -47px, 32px, 32px);
+}
+
+.icon-weapon-axe-of-hernes {
+    @include stitches-icon-weapon(-561px, -47px, 32px, 32px);
+}
+
+.icon-weapon-axe-of-ivillis {
+    @include stitches-icon-weapon(-603px, -47px, 32px, 32px);
+}
+
+.icon-weapon-axe-of-luda {
+    @include stitches-icon-weapon(-645px, -47px, 32px, 32px);
+}
+
+.icon-weapon-babil-knuckle {
+    @include stitches-icon-weapon(-687px, -47px, 32px, 32px);
+}
+
+.icon-weapon-babil-knuckle-24x24 {
+    @include stitches-icon-weapon(-729px, -47px, 24px, 24px);
+}
+
+.icon-weapon-barem-stick {
+    @include stitches-icon-weapon(-763px, -47px, 32px, 32px);
+}
+
+.icon-weapon-bastard-sword {
+    @include stitches-icon-weapon(-805px, -47px, 32px, 32px);
+}
+
+.icon-weapon-behemoth-axe {
+    @include stitches-icon-weapon(-847px, -47px, 32px, 32px);
+}
+
+.icon-weapon-behemoth-big-axe {
+    @include stitches-icon-weapon(-889px, -47px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-crossbow {
+    @include stitches-icon-weapon(-931px, -47px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-knuckle {
+    @include stitches-icon-weapon(-5px, -89px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-knuckle-24x24 {
+    @include stitches-icon-weapon(-47px, -89px, 24px, 24px);
+}
+
+.icon-weapon-behemoths-one-handed-sword {
+    @include stitches-icon-weapon(-81px, -89px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-staff {
+    @include stitches-icon-weapon(-123px, -89px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-stick {
+    @include stitches-icon-weapon(-165px, -89px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-sword {
+    @include stitches-icon-weapon(-207px, -89px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-two-handed-sword {
+    @include stitches-icon-weapon(-249px, -89px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-wand {
+    @include stitches-icon-weapon(-291px, -89px, 32px, 32px);
+}
+
+.icon-weapon-behemoths-wand-24x24 {
+    @include stitches-icon-weapon(-333px, -89px, 24px, 24px);
+}
+
+.icon-weapon-behemoths-yoyo {
+    @include stitches-icon-weapon(-367px, -89px, 32px, 32px);
+}
+
+.icon-weapon-berk-axe {
+    @include stitches-icon-weapon(-409px, -89px, 32px, 32px);
+}
+
+.icon-weapon-big-axe-of-hernes {
+    @include stitches-icon-weapon(-451px, -89px, 32px, 32px);
+}
+
+.icon-weapon-big-axe-of-ivillis {
+    @include stitches-icon-weapon(-493px, -89px, 32px, 32px);
+}
+
+.icon-weapon-blesever-knuckle {
+    @include stitches-icon-weapon(-535px, -89px, 32px, 32px);
+}
+
+.icon-weapon-blesever-knuckle-24x24 {
+    @include stitches-icon-weapon(-577px, -89px, 24px, 24px);
+}
+
+.icon-weapon-blink-sword {
+    @include stitches-icon-weapon(-611px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-axe {
+    @include stitches-icon-weapon(-653px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-big-axe {
+    @include stitches-icon-weapon(-695px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-bow {
+    @include stitches-icon-weapon(-737px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-knuckle {
+    @include stitches-icon-weapon(-779px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-knuckle-24x24 {
+    @include stitches-icon-weapon(-821px, -89px, 24px, 24px);
+}
+
+.icon-weapon-bloody-slayer {
+    @include stitches-icon-weapon(-855px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-staff {
+    @include stitches-icon-weapon(-897px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-stick {
+    @include stitches-icon-weapon(-939px, -89px, 32px, 32px);
+}
+
+.icon-weapon-bloody-sword {
+    @include stitches-icon-weapon(-5px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bloody-wand {
+    @include stitches-icon-weapon(-47px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bloody-wand-24x24 {
+    @include stitches-icon-weapon(-89px, -131px, 24px, 24px);
+}
+
+.icon-weapon-bloody-yoyo {
+    @include stitches-icon-weapon(-123px, -131px, 32px, 32px);
+}
+
+.icon-weapon-blue-jade-sword {
+    @include stitches-icon-weapon(-165px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bluebow-wand {
+    @include stitches-icon-weapon(-207px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bluebow-wand-24x24 {
+    @include stitches-icon-weapon(-249px, -131px, 24px, 24px);
+}
+
+.icon-weapon-bonebar-axe {
+    @include stitches-icon-weapon(-283px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bosl-stick {
+    @include stitches-icon-weapon(-325px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bow-of-accuracy {
+    @include stitches-icon-weapon(-367px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bow-of-hernes {
+    @include stitches-icon-weapon(-409px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bow-of-ivillis {
+    @include stitches-icon-weapon(-451px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bow-of-spirit {
+    @include stitches-icon-weapon(-493px, -131px, 32px, 32px);
+}
+
+.icon-weapon-branch-of-rhisis {
+    @include stitches-icon-weapon(-535px, -131px, 32px, 32px);
+}
+
+.icon-weapon-branch-of-rhisis-24x24 {
+    @include stitches-icon-weapon(-577px, -131px, 24px, 24px);
+}
+
+.icon-weapon-bravery-sword {
+    @include stitches-icon-weapon(-611px, -131px, 32px, 32px);
+}
+
+.icon-weapon-broad-sword {
+    @include stitches-icon-weapon(-653px, -131px, 32px, 32px);
+}
+
+.icon-weapon-bronze-axe {
+    @include stitches-icon-weapon(-695px, -131px, 32px, 32px);
+}
+
+.icon-weapon-brouton-bow {
+    @include stitches-icon-weapon(-737px, -131px, 32px, 32px);
+}
+
+.icon-weapon-canine-axe {
+    @include stitches-icon-weapon(-779px, -131px, 32px, 32px);
+}
+
+.icon-weapon-carnage-sword {
+    @include stitches-icon-weapon(-821px, -131px, 32px, 32px);
+}
+
+.icon-weapon-catchy-axe {
+    @include stitches-icon-weapon(-863px, -131px, 32px, 32px);
+}
+
+.icon-weapon-cenatin-bow {
+    @include stitches-icon-weapon(-905px, -131px, 32px, 32px);
+}
+
+.icon-weapon-chainsing-sword {
+    @include stitches-icon-weapon(-947px, -131px, 32px, 32px);
+}
+
+.icon-weapon-cicern-yoyo {
+    @include stitches-icon-weapon(-5px, -173px, 32px, 32px);
+}
+
+.icon-weapon-circern-yoyo {
+    @include stitches-icon-weapon(-47px, -173px, 32px, 32px);
+}
+
+.icon-weapon-clantob-yoyo {
+    @include stitches-icon-weapon(-89px, -173px, 32px, 32px);
+}
+
+.icon-weapon-clasemit-bow {
+    @include stitches-icon-weapon(-131px, -173px, 32px, 32px);
+}
+
+.icon-weapon-claw-of-lawolf {
+    @include stitches-icon-weapon(-173px, -173px, 32px, 32px);
+}
+
+.icon-weapon-client-yoyo {
+    @include stitches-icon-weapon(-215px, -173px, 32px, 32px);
+}
+
+.icon-weapon-clip-sword {
+    @include stitches-icon-weapon(-257px, -173px, 32px, 32px);
+}
+
+.icon-weapon-clock-slayer {
+    @include stitches-icon-weapon(-299px, -173px, 32px, 32px);
+}
+
+.icon-weapon-clrael-wand {
+    @include stitches-icon-weapon(-341px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-axe {
+    @include stitches-icon-weapon(-383px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-big-axe {
+    @include stitches-icon-weapon(-425px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-big-sword {
+    @include stitches-icon-weapon(-467px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-bow {
+    @include stitches-icon-weapon(-509px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-knuckle {
+    @include stitches-icon-weapon(-551px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-knuckle-24x24 {
+    @include stitches-icon-weapon(-593px, -173px, 24px, 24px);
+}
+
+.icon-weapon-coliseum-angels-staff {
+    @include stitches-icon-weapon(-627px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-stick {
+    @include stitches-icon-weapon(-669px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-sword {
+    @include stitches-icon-weapon(-711px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-wand {
+    @include stitches-icon-weapon(-753px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-angels-wand-24x24 {
+    @include stitches-icon-weapon(-795px, -173px, 24px, 24px);
+}
+
+.icon-weapon-coliseum-angels-yoyo {
+    @include stitches-icon-weapon(-829px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-axe {
+    @include stitches-icon-weapon(-871px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-big-axe {
+    @include stitches-icon-weapon(-913px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-big-sword {
+    @include stitches-icon-weapon(-955px, -173px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-bow {
+    @include stitches-icon-weapon(-5px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-knuckle {
+    @include stitches-icon-weapon(-47px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-knuckle-24x24 {
+    @include stitches-icon-weapon(-89px, -215px, 24px, 24px);
+}
+
+.icon-weapon-coliseum-bloody-staff {
+    @include stitches-icon-weapon(-123px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-stick {
+    @include stitches-icon-weapon(-165px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-sword {
+    @include stitches-icon-weapon(-207px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-wand {
+    @include stitches-icon-weapon(-249px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-bloody-wand-24x24 {
+    @include stitches-icon-weapon(-291px, -215px, 24px, 24px);
+}
+
+.icon-weapon-coliseum-bloody-yoyo {
+    @include stitches-icon-weapon(-325px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-axe {
+    @include stitches-icon-weapon(-367px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-big-axe {
+    @include stitches-icon-weapon(-409px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-big-sword {
+    @include stitches-icon-weapon(-451px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-bow {
+    @include stitches-icon-weapon(-493px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-knuckle {
+    @include stitches-icon-weapon(-535px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-knuckle-24x24 {
+    @include stitches-icon-weapon(-577px, -215px, 24px, 24px);
+}
+
+.icon-weapon-coliseum-historic-staff {
+    @include stitches-icon-weapon(-611px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-stick {
+    @include stitches-icon-weapon(-653px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-sword {
+    @include stitches-icon-weapon(-695px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-wand {
+    @include stitches-icon-weapon(-737px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coliseum-historic-wand-24x24 {
+    @include stitches-icon-weapon(-779px, -215px, 24px, 24px);
+}
+
+.icon-weapon-coliseum-historic-yoyo {
+    @include stitches-icon-weapon(-813px, -215px, 32px, 32px);
+}
+
+.icon-weapon-corean-knuckle {
+    @include stitches-icon-weapon(-855px, -215px, 32px, 32px);
+}
+
+.icon-weapon-corean-knuckle-24x24 {
+    @include stitches-icon-weapon(-897px, -215px, 24px, 24px);
+}
+
+.icon-weapon-corin-axe {
+    @include stitches-icon-weapon(-931px, -215px, 32px, 32px);
+}
+
+.icon-weapon-coroner-yoyo {
+    @include stitches-icon-weapon(-5px, -257px, 32px, 32px);
+}
+
+.icon-weapon-crawler-axe {
+    @include stitches-icon-weapon(-47px, -257px, 32px, 32px);
+}
+
+.icon-weapon-crest-axe {
+    @include stitches-icon-weapon(-89px, -257px, 32px, 32px);
+}
+
+.icon-weapon-crimson-sword {
+    @include stitches-icon-weapon(-131px, -257px, 32px, 32px);
+}
+
+.icon-weapon-cristia-bow {
+    @include stitches-icon-weapon(-173px, -257px, 32px, 32px);
+}
+
+.icon-weapon-critin-axe {
+    @include stitches-icon-weapon(-215px, -257px, 32px, 32px);
+}
+
+.icon-weapon-crow-axe {
+    @include stitches-icon-weapon(-257px, -257px, 32px, 32px);
+}
+
+.icon-weapon-cubic-wand {
+    @include stitches-icon-weapon(-299px, -257px, 32px, 32px);
+}
+
+.icon-weapon-curning-axe {
+    @include stitches-icon-weapon(-341px, -257px, 32px, 32px);
+}
+
+.icon-weapon-curusier-bow {
+    @include stitches-icon-weapon(-383px, -257px, 32px, 32px);
+}
+
+.icon-weapon-cylos-sword {
+    @include stitches-icon-weapon(-425px, -257px, 32px, 32px);
+}
+
+.icon-weapon-cyron-bow {
+    @include stitches-icon-weapon(-467px, -257px, 32px, 32px);
+}
+
+.icon-weapon-dain-stick {
+    @include stitches-icon-weapon(-509px, -257px, 32px, 32px);
+}
+
+.icon-weapon-darcro-axe {
+    @include stitches-icon-weapon(-551px, -257px, 32px, 32px);
+}
+
+.icon-weapon-daris-wand {
+    @include stitches-icon-weapon(-593px, -257px, 32px, 32px);
+}
+
+.icon-weapon-darkonizer-sword {
+    @include stitches-icon-weapon(-635px, -257px, 32px, 32px);
+}
+
+.icon-weapon-dazzle-wand {
+    @include stitches-icon-weapon(-677px, -257px, 32px, 32px);
+}
+
+.icon-weapon-dazzle-wand-24x24 {
+    @include stitches-icon-weapon(-719px, -257px, 24px, 24px);
+}
+
+.icon-weapon-defnan-bow {
+    @include stitches-icon-weapon(-753px, -257px, 32px, 32px);
+}
+
+.icon-weapon-dia-wand {
+    @include stitches-icon-weapon(-795px, -257px, 32px, 32px);
+}
+
+.icon-weapon-dia-wand-24x24 {
+    @include stitches-icon-weapon(-837px, -257px, 24px, 24px);
+}
+
+.icon-weapon-dicein-yoyo {
+    @include stitches-icon-weapon(-871px, -257px, 32px, 32px);
+}
+
+.icon-weapon-dolphin-axe {
+    @include stitches-icon-weapon(-913px, -257px, 32px, 32px);
+}
+
+.icon-weapon-drakhan-axe {
+    @include stitches-icon-weapon(-955px, -257px, 32px, 32px);
+}
+
+.icon-weapon-dretra-sword {
+    @include stitches-icon-weapon(-5px, -299px, 32px, 32px);
+}
+
+.icon-weapon-drone-axe {
+    @include stitches-icon-weapon(-47px, -299px, 32px, 32px);
+}
+
+.icon-weapon-eclipse-wand {
+    @include stitches-icon-weapon(-89px, -299px, 32px, 32px);
+}
+
+.icon-weapon-eclipse-wand-24x24 {
+    @include stitches-icon-weapon(-131px, -299px, 24px, 24px);
+}
+
+.icon-weapon-edoren-knuckle {
+    @include stitches-icon-weapon(-165px, -299px, 32px, 32px);
+}
+
+.icon-weapon-edoren-knuckle-24x24 {
+    @include stitches-icon-weapon(-207px, -299px, 24px, 24px);
+}
+
+.icon-weapon-elemental-axe {
+    @include stitches-icon-weapon(-241px, -299px, 32px, 32px);
+}
+
+.icon-weapon-elfyren-staff {
+    @include stitches-icon-weapon(-283px, -299px, 32px, 32px);
+}
+
+.icon-weapon-emeryl-sword {
+    @include stitches-icon-weapon(-325px, -299px, 32px, 32px);
+}
+
+.icon-weapon-emperor-sword {
+    @include stitches-icon-weapon(-367px, -299px, 32px, 32px);
+}
+
+.icon-weapon-emporer-yoyo {
+    @include stitches-icon-weapon(-409px, -299px, 32px, 32px);
+}
+
+.icon-weapon-enaphoon-yoyo {
+    @include stitches-icon-weapon(-451px, -299px, 32px, 32px);
+}
+
+.icon-weapon-entale-sword {
+    @include stitches-icon-weapon(-493px, -299px, 32px, 32px);
+}
+
+.icon-weapon-epi-wand {
+    @include stitches-icon-weapon(-535px, -299px, 32px, 32px);
+}
+
+.icon-weapon-epi-wand-24x24 {
+    @include stitches-icon-weapon(-577px, -299px, 24px, 24px);
+}
+
+.icon-weapon-exhaust-axe {
+    @include stitches-icon-weapon(-611px, -299px, 32px, 32px);
+}
+
+.icon-weapon-fairslender-sword {
+    @include stitches-icon-weapon(-653px, -299px, 32px, 32px);
+}
+
+.icon-weapon-fanta-stick {
+    @include stitches-icon-weapon(-695px, -299px, 32px, 32px);
+}
+
+.icon-weapon-featherwing-staff {
+    @include stitches-icon-weapon(-737px, -299px, 32px, 32px);
+}
+
+.icon-weapon-federhorn-knuckle {
+    @include stitches-icon-weapon(-779px, -299px, 32px, 32px);
+}
+
+.icon-weapon-federhorn-knuckle-24x24 {
+    @include stitches-icon-weapon(-821px, -299px, 24px, 24px);
+}
+
+.icon-weapon-fellpeed-axe {
+    @include stitches-icon-weapon(-855px, -299px, 32px, 32px);
+}
+
+.icon-weapon-fiont-bow {
+    @include stitches-icon-weapon(-897px, -299px, 32px, 32px);
+}
+
+.icon-weapon-fire-wand {
+    @include stitches-icon-weapon(-939px, -299px, 32px, 32px);
+}
+
+.icon-weapon-fire-wand-24x24 {
+    @include stitches-icon-weapon(-5px, -341px, 24px, 24px);
+}
+
+.icon-weapon-firee-yoyo {
+    @include stitches-icon-weapon(-39px, -341px, 32px, 32px);
+}
+
+.icon-weapon-fist-of-revenge {
+    @include stitches-icon-weapon(-81px, -341px, 32px, 32px);
+}
+
+.icon-weapon-fist-of-revenge-24x24 {
+    @include stitches-icon-weapon(-123px, -341px, 24px, 24px);
+}
+
+.icon-weapon-fistomber-knuckle {
+    @include stitches-icon-weapon(-157px, -341px, 32px, 32px);
+}
+
+.icon-weapon-fistomber-knuckle-24x24 {
+    @include stitches-icon-weapon(-199px, -341px, 24px, 24px);
+}
+
+.icon-weapon-flam-staff {
+    @include stitches-icon-weapon(-233px, -341px, 32px, 32px);
+}
+
+.icon-weapon-flam-sword {
+    @include stitches-icon-weapon(-275px, -341px, 32px, 32px);
+}
+
+.icon-weapon-flaming-bow {
+    @include stitches-icon-weapon(-317px, -341px, 32px, 32px);
+}
+
+.icon-weapon-flaming-stick {
+    @include stitches-icon-weapon(-359px, -341px, 32px, 32px);
+}
+
+.icon-weapon-flarine-stick {
+    @include stitches-icon-weapon(-401px, -341px, 32px, 32px);
+}
+
+.icon-weapon-flury-stick {
+    @include stitches-icon-weapon(-443px, -341px, 32px, 32px);
+}
+
+.icon-weapon-forlas-stick {
+    @include stitches-icon-weapon(-485px, -341px, 32px, 32px);
+}
+
+.icon-weapon-fosharpen-staff {
+    @include stitches-icon-weapon(-527px, -341px, 32px, 32px);
+}
+
+.icon-weapon-frenetic-axe {
+    @include stitches-icon-weapon(-569px, -341px, 32px, 32px);
+}
+
+.icon-weapon-fullarch-bow {
+    @include stitches-icon-weapon(-611px, -341px, 32px, 32px);
+}
+
+.icon-weapon-garlain-stick {
+    @include stitches-icon-weapon(-653px, -341px, 32px, 32px);
+}
+
+.icon-weapon-gelonde-yoyo {
+    @include stitches-icon-weapon(-695px, -341px, 32px, 32px);
+}
+
+.icon-weapon-gemini-sword {
+    @include stitches-icon-weapon(-737px, -341px, 32px, 32px);
+}
+
+.icon-weapon-gigaton-knuckle {
+    @include stitches-icon-weapon(-779px, -341px, 32px, 32px);
+}
+
+.icon-weapon-gigaton-knuckle-24x24 {
+    @include stitches-icon-weapon(-821px, -341px, 24px, 24px);
+}
+
+.icon-weapon-goldross-knuckle {
+    @include stitches-icon-weapon(-855px, -341px, 32px, 32px);
+}
+
+.icon-weapon-goldross-knuckle-24x24 {
+    @include stitches-icon-weapon(-897px, -341px, 24px, 24px);
+}
+
+.icon-weapon-gootnizer-sword {
+    @include stitches-icon-weapon(-931px, -341px, 32px, 32px);
+}
+
+.icon-weapon-gore-sword {
+    @include stitches-icon-weapon(-5px, -383px, 32px, 32px);
+}
+
+.icon-weapon-grabber-axe {
+    @include stitches-icon-weapon(-47px, -383px, 32px, 32px);
+}
+
+.icon-weapon-grang-axe {
+    @include stitches-icon-weapon(-89px, -383px, 32px, 32px);
+}
+
+.icon-weapon-gravity-knuckle {
+    @include stitches-icon-weapon(-131px, -383px, 32px, 32px);
+}
+
+.icon-weapon-gravity-knuckle-24x24 {
+    @include stitches-icon-weapon(-173px, -383px, 24px, 24px);
+}
+
+.icon-weapon-great-axe {
+    @include stitches-icon-weapon(-207px, -383px, 32px, 32px);
+}
+
+.icon-weapon-great-sword-of-ivillis {
+    @include stitches-icon-weapon(-249px, -383px, 32px, 32px);
+}
+
+.icon-weapon-greentin-bow {
+    @include stitches-icon-weapon(-291px, -383px, 32px, 32px);
+}
+
+.icon-weapon-grim-stick {
+    @include stitches-icon-weapon(-333px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-axe {
+    @include stitches-icon-weapon(-375px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-big-axe {
+    @include stitches-icon-weapon(-417px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-big-sword {
+    @include stitches-icon-weapon(-459px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-bow {
+    @include stitches-icon-weapon(-501px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-knuckle {
+    @include stitches-icon-weapon(-543px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-staff {
+    @include stitches-icon-weapon(-585px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-stick {
+    @include stitches-icon-weapon(-627px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-sword {
+    @include stitches-icon-weapon(-669px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-wand {
+    @include stitches-icon-weapon(-711px, -383px, 32px, 32px);
+}
+
+.icon-weapon-guardian-yoyo {
+    @include stitches-icon-weapon(-753px, -383px, 32px, 32px);
+}
+
+.icon-weapon-hand-claw {
+    @include stitches-icon-weapon(-795px, -383px, 32px, 32px);
+}
+
+.icon-weapon-hardinition-axe {
+    @include stitches-icon-weapon(-837px, -383px, 32px, 32px);
+}
+
+.icon-weapon-harpion-sword {
+    @include stitches-icon-weapon(-879px, -383px, 32px, 32px);
+}
+
+.icon-weapon-hauntizer-sword {
+    @include stitches-icon-weapon(-921px, -383px, 32px, 32px);
+}
+
+.icon-weapon-herald-staff {
+    @include stitches-icon-weapon(-5px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-axe {
+    @include stitches-icon-weapon(-47px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-big-axe {
+    @include stitches-icon-weapon(-89px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-big-sword {
+    @include stitches-icon-weapon(-131px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-bow {
+    @include stitches-icon-weapon(-173px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-knuckle {
+    @include stitches-icon-weapon(-215px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-knuckle-24x24 {
+    @include stitches-icon-weapon(-963px, -383px, 24px, 24px);
+}
+
+.icon-weapon-historic-staff {
+    @include stitches-icon-weapon(-257px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-stick {
+    @include stitches-icon-weapon(-299px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-sword {
+    @include stitches-icon-weapon(-341px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-wand {
+    @include stitches-icon-weapon(-383px, -425px, 32px, 32px);
+}
+
+.icon-weapon-historic-wand-24x24 {
+    @include stitches-icon-weapon(-963px, -417px, 24px, 24px);
+}
+
+.icon-weapon-historic-yoyo {
+    @include stitches-icon-weapon(-425px, -425px, 32px, 32px);
+}
+
+.icon-weapon-hitch-axe {
+    @include stitches-icon-weapon(-467px, -425px, 32px, 32px);
+}
+
+.icon-weapon-holyous-staff {
+    @include stitches-icon-weapon(-509px, -425px, 32px, 32px);
+}
+
+.icon-weapon-hotter-sword {
+    @include stitches-icon-weapon(-551px, -425px, 32px, 32px);
+}
+
+.icon-weapon-huey-stick {
+    @include stitches-icon-weapon(-593px, -425px, 32px, 32px);
+}
+
+.icon-weapon-hydron-bow {
+    @include stitches-icon-weapon(-635px, -425px, 32px, 32px);
+}
+
+.icon-weapon-hyper-stick {
+    @include stitches-icon-weapon(-677px, -425px, 32px, 32px);
+}
+
+.icon-weapon-ignis-staff {
+    @include stitches-icon-weapon(-719px, -425px, 32px, 32px);
+}
+
+.icon-weapon-immote-yoyo {
+    @include stitches-icon-weapon(-761px, -425px, 32px, 32px);
+}
+
+.icon-weapon-inner-staff {
+    @include stitches-icon-weapon(-803px, -425px, 32px, 32px);
+}
+
+.icon-weapon-invader-sword {
+    @include stitches-icon-weapon(-845px, -425px, 32px, 32px);
+}
+
+.icon-weapon-iron-of-clockworks {
+    @include stitches-icon-weapon(-887px, -425px, 32px, 32px);
+}
+
+.icon-weapon-irony-knuckle {
+    @include stitches-icon-weapon(-929px, -451px, 32px, 32px);
+}
+
+.icon-weapon-irony-knuckle-24x24 {
+    @include stitches-icon-weapon(-5px, -493px, 24px, 24px);
+}
+
+.icon-weapon-irun-bow {
+    @include stitches-icon-weapon(-39px, -493px, 32px, 32px);
+}
+
+.icon-weapon-jalate-wand {
+    @include stitches-icon-weapon(-81px, -493px, 32px, 32px);
+}
+
+.icon-weapon-jalate-wand-24x24 {
+    @include stitches-icon-weapon(-123px, -493px, 24px, 24px);
+}
+
+.icon-weapon-janitor-sword {
+    @include stitches-icon-weapon(-157px, -493px, 32px, 32px);
+}
+
+.icon-weapon-kaleonizer-sword {
+    @include stitches-icon-weapon(-199px, -493px, 32px, 32px);
+}
+
+.icon-weapon-kalis-wand {
+    @include stitches-icon-weapon(-241px, -493px, 32px, 32px);
+}
+
+.icon-weapon-kalis-wand-24x24 {
+    @include stitches-icon-weapon(-283px, -493px, 24px, 24px);
+}
+
+.icon-weapon-kanainition-axe {
+    @include stitches-icon-weapon(-317px, -493px, 32px, 32px);
+}
+
+.icon-weapon-karhem-axe {
+    @include stitches-icon-weapon(-359px, -493px, 32px, 32px);
+}
+
+.icon-weapon-karlim-sword {
+    @include stitches-icon-weapon(-401px, -493px, 30px, 32px);
+}
+
+.icon-weapon-karlim-sword-24x24 {
+    @include stitches-icon-weapon(-441px, -493px, 24px, 24px);
+}
+
+.icon-weapon-karmel-sword {
+    @include stitches-icon-weapon(-475px, -493px, 32px, 32px);
+}
+
+.icon-weapon-karzam-staff {
+    @include stitches-icon-weapon(-517px, -493px, 32px, 32px);
+}
+
+.icon-weapon-kehin-sword {
+    @include stitches-icon-weapon(-559px, -493px, 32px, 32px);
+}
+
+.icon-weapon-kergnition-axe {
+    @include stitches-icon-weapon(-601px, -493px, 32px, 32px);
+}
+
+.icon-weapon-knighteel-knuckle {
+    @include stitches-icon-weapon(-643px, -493px, 32px, 32px);
+}
+
+.icon-weapon-knighteel-knuckle-24x24 {
+    @include stitches-icon-weapon(-685px, -493px, 24px, 24px);
+}
+
+.icon-weapon-knuckle-of-hernes {
+    @include stitches-icon-weapon(-719px, -493px, 32px, 32px);
+}
+
+.icon-weapon-knuckle-of-hernes-24x24 {
+    @include stitches-icon-weapon(-761px, -493px, 24px, 24px);
+}
+
+.icon-weapon-knuckle-of-ivillis {
+    @include stitches-icon-weapon(-795px, -493px, 32px, 32px);
+}
+
+.icon-weapon-knuckle-of-ivillis-24x24 {
+    @include stitches-icon-weapon(-837px, -493px, 24px, 24px);
+}
+
+.icon-weapon-kroril-wand {
+    @include stitches-icon-weapon(-871px, -493px, 32px, 32px);
+}
+
+.icon-weapon-kroril-wand-24x24 {
+    @include stitches-icon-weapon(-913px, -493px, 24px, 24px);
+}
+
+.icon-weapon-kudos-stick {
+    @include stitches-icon-weapon(-947px, -493px, 32px, 32px);
+}
+
+.icon-weapon-lasternition-axe {
+    @include stitches-icon-weapon(-5px, -535px, 32px, 32px);
+}
+
+.icon-weapon-lasterslayer-sword {
+    @include stitches-icon-weapon(-47px, -535px, 32px, 32px);
+}
+
+.icon-weapon-leafgale-staff {
+    @include stitches-icon-weapon(-89px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-axe {
+    @include stitches-icon-weapon(-131px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-big-axe {
+    @include stitches-icon-weapon(-173px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-big-sword {
+    @include stitches-icon-weapon(-215px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-bow {
+    @include stitches-icon-weapon(-257px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-knuckle {
+    @include stitches-icon-weapon(-299px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-knuckle-24x24 {
+    @include stitches-icon-weapon(-341px, -535px, 24px, 24px);
+}
+
+.icon-weapon-legendary-golden-staff {
+    @include stitches-icon-weapon(-375px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-stick {
+    @include stitches-icon-weapon(-417px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-sword {
+    @include stitches-icon-weapon(-459px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-wand {
+    @include stitches-icon-weapon(-501px, -535px, 32px, 32px);
+}
+
+.icon-weapon-legendary-golden-wand-24x24 {
+    @include stitches-icon-weapon(-543px, -535px, 24px, 24px);
+}
+
+.icon-weapon-legendary-golden-yoyo {
+    @include stitches-icon-weapon(-577px, -535px, 32px, 32px);
+}
+
+.icon-weapon-leoss-stick {
+    @include stitches-icon-weapon(-619px, -535px, 32px, 32px);
+}
+
+.icon-weapon-lichiky-axe {
+    @include stitches-icon-weapon(-661px, -535px, 32px, 32px);
+}
+
+.icon-weapon-lightened-wand {
+    @include stitches-icon-weapon(-703px, -535px, 32px, 32px);
+}
+
+.icon-weapon-lightened-wand-24x24 {
+    @include stitches-icon-weapon(-745px, -535px, 24px, 24px);
+}
+
+.icon-weapon-linition-axe {
+    @include stitches-icon-weapon(-779px, -535px, 32px, 32px);
+}
+
+.icon-weapon-long-sword {
+    @include stitches-icon-weapon(-821px, -535px, 32px, 32px);
+}
+
+.icon-weapon-lorai-wand {
+    @include stitches-icon-weapon(-863px, -535px, 32px, 32px);
+}
+
+.icon-weapon-lordorbl-knuckle {
+    @include stitches-icon-weapon(-905px, -535px, 32px, 32px);
+}
+
+.icon-weapon-lordorbl-knuckle-24x24 {
+    @include stitches-icon-weapon(-947px, -535px, 24px, 24px);
+}
+
+.icon-weapon-lurknition-axe {
+    @include stitches-icon-weapon(-947px, -569px, 32px, 32px);
+}
+
+.icon-weapon-luxior-axe {
+    @include stitches-icon-weapon(-5px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-axe {
+    @include stitches-icon-weapon(-47px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-big-axe {
+    @include stitches-icon-weapon(-89px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-big-sword {
+    @include stitches-icon-weapon(-131px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-bow {
+    @include stitches-icon-weapon(-173px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-axe {
+    @include stitches-icon-weapon(-215px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-big-axe {
+    @include stitches-icon-weapon(-257px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-big-sword {
+    @include stitches-icon-weapon(-299px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-bow {
+    @include stitches-icon-weapon(-341px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-knuckle {
+    @include stitches-icon-weapon(-383px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-knuckle-24x24 {
+    @include stitches-icon-weapon(-341px, -569px, 24px, 24px);
+}
+
+.icon-weapon-luzakas-crystal-staff {
+    @include stitches-icon-weapon(-425px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-stick {
+    @include stitches-icon-weapon(-467px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-sword {
+    @include stitches-icon-weapon(-509px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-wand {
+    @include stitches-icon-weapon(-551px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-crystal-wand-24x24 {
+    @include stitches-icon-weapon(-543px, -569px, 24px, 24px);
+}
+
+.icon-weapon-luzakas-crystal-yoyo {
+    @include stitches-icon-weapon(-593px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-knuckle {
+    @include stitches-icon-weapon(-635px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-knuckle-24x24 {
+    @include stitches-icon-weapon(-745px, -569px, 24px, 24px);
+}
+
+.icon-weapon-luzakas-staff {
+    @include stitches-icon-weapon(-677px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-stick {
+    @include stitches-icon-weapon(-719px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-sword {
+    @include stitches-icon-weapon(-761px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-wand {
+    @include stitches-icon-weapon(-803px, -611px, 32px, 32px);
+}
+
+.icon-weapon-luzakas-wand-24x24 {
+    @include stitches-icon-weapon(-845px, -611px, 24px, 24px);
+}
+
+.icon-weapon-luzakas-yoyo {
+    @include stitches-icon-weapon(-879px, -611px, 32px, 32px);
+}
+
+.icon-weapon-mariner-staff {
+    @include stitches-icon-weapon(-921px, -611px, 32px, 32px);
+}
+
+.icon-weapon-marvel-knuckle {
+    @include stitches-icon-weapon(-5px, -653px, 32px, 32px);
+}
+
+.icon-weapon-marvel-knuckle-24x24 {
+    @include stitches-icon-weapon(-963px, -611px, 24px, 24px);
+}
+
+.icon-weapon-masquerpet-cutter {
+    @include stitches-icon-weapon(-47px, -653px, 32px, 32px);
+}
+
+.icon-weapon-mekerhill-wand {
+    @include stitches-icon-weapon(-89px, -653px, 32px, 32px);
+}
+
+.icon-weapon-mekerhill-wand-24x24 {
+    @include stitches-icon-weapon(-845px, -645px, 24px, 24px);
+}
+
+.icon-weapon-meryl-stick {
+    @include stitches-icon-weapon(-131px, -653px, 32px, 32px);
+}
+
+.icon-weapon-mile-staff {
+    @include stitches-icon-weapon(-173px, -653px, 32px, 32px);
+}
+
+.icon-weapon-mirage-wand {
+    @include stitches-icon-weapon(-215px, -653px, 32px, 32px);
+}
+
+.icon-weapon-miragle-yoyo {
+    @include stitches-icon-weapon(-257px, -653px, 32px, 32px);
+}
+
+.icon-weapon-mirth-stick {
+    @include stitches-icon-weapon(-299px, -653px, 32px, 32px);
+}
+
+.icon-weapon-mishend-yoyo {
+    @include stitches-icon-weapon(-341px, -653px, 32px, 32px);
+}
+
+.icon-weapon-moncuto-knuckle {
+    @include stitches-icon-weapon(-383px, -653px, 32px, 32px);
+}
+
+.icon-weapon-moncuto-knuckle-24x24 {
+    @include stitches-icon-weapon(-963px, -645px, 24px, 24px);
+}
+
+.icon-weapon-moralemine-stick {
+    @include stitches-icon-weapon(-425px, -653px, 32px, 32px);
+}
+
+.icon-weapon-morrow-axe {
+    @include stitches-icon-weapon(-467px, -653px, 32px, 32px);
+}
+
+.icon-weapon-multiblade-sword {
+    @include stitches-icon-weapon(-509px, -653px, 32px, 32px);
+}
+
+.icon-weapon-naz-wand {
+    @include stitches-icon-weapon(-551px, -653px, 32px, 32px);
+}
+
+.icon-weapon-naz-wand-24x24 {
+    @include stitches-icon-weapon(-593px, -679px, 24px, 24px);
+}
+
+.icon-weapon-nefume-wand {
+    @include stitches-icon-weapon(-627px, -653px, 32px, 32px);
+}
+
+.icon-weapon-nefume-wand-24x24 {
+    @include stitches-icon-weapon(-669px, -679px, 24px, 24px);
+}
+
+.icon-weapon-nile-staff {
+    @include stitches-icon-weapon(-703px, -653px, 32px, 32px);
+}
+
+.icon-weapon-ninegale-stick {
+    @include stitches-icon-weapon(-745px, -653px, 32px, 32px);
+}
+
+.icon-weapon-niz-wand {
+    @include stitches-icon-weapon(-787px, -653px, 32px, 32px);
+}
+
+.icon-weapon-niz-wand-24x24 {
+    @include stitches-icon-weapon(-829px, -679px, 24px, 24px);
+}
+
+.icon-weapon-old-guardian-axe {
+    @include stitches-icon-weapon(-879px, -653px, 32px, 32px);
+}
+
+.icon-weapon-old-guardian-axe-24x24 {
+    @include stitches-icon-weapon(-921px, -679px, 24px, 24px);
+}
+
+.icon-weapon-old-guardian-big-axe {
+    @include stitches-icon-weapon(-955px, -679px, 21px, 32px);
+}
+
+.icon-weapon-old-guardian-big-sword {
+    @include stitches-icon-weapon(-5px, -721px, 31px, 31px);
+}
+
+.icon-weapon-old-guardian-sword {
+    @include stitches-icon-weapon(-46px, -721px, 31px, 32px);
+}
+
+.icon-weapon-old-guardian-yoyo {
+    @include stitches-icon-weapon(-87px, -721px, 32px, 32px);
+}
+
+.icon-weapon-old-guardians-bow {
+    @include stitches-icon-weapon(-129px, -721px, 34px, 32px);
+}
+
+.icon-weapon-old-guardians-knuckle {
+    @include stitches-icon-weapon(-173px, -721px, 28px, 29px);
+}
+
+.icon-weapon-old-guardians-knuckle-24x24 {
+    @include stitches-icon-weapon(-211px, -721px, 24px, 24px);
+}
+
+.icon-weapon-old-guardians-staff {
+    @include stitches-icon-weapon(-245px, -721px, 33px, 33px);
+}
+
+.icon-weapon-old-guardians-stick {
+    @include stitches-icon-weapon(-288px, -721px, 32px, 31px);
+}
+
+.icon-weapon-old-guardians-wand {
+    @include stitches-icon-weapon(-330px, -721px, 31px, 30px);
+}
+
+.icon-weapon-orcanition-axe {
+    @include stitches-icon-weapon(-371px, -721px, 32px, 32px);
+}
+
+.icon-weapon-outlaw-sword {
+    @include stitches-icon-weapon(-413px, -721px, 32px, 32px);
+}
+
+.icon-weapon-overam-knuckle {
+    @include stitches-icon-weapon(-455px, -721px, 32px, 32px);
+}
+
+.icon-weapon-overam-knuckle-24x24 {
+    @include stitches-icon-weapon(-497px, -721px, 24px, 24px);
+}
+
+.icon-weapon-overpass-knuckle {
+    @include stitches-icon-weapon(-531px, -721px, 32px, 32px);
+}
+
+.icon-weapon-panggril-sword {
+    @include stitches-icon-weapon(-573px, -721px, 32px, 32px);
+}
+
+.icon-weapon-papanew-staff {
+    @include stitches-icon-weapon(-615px, -721px, 32px, 32px);
+}
+
+.icon-weapon-papang-stick {
+    @include stitches-icon-weapon(-657px, -721px, 32px, 32px);
+}
+
+.icon-weapon-parmil-sword {
+    @include stitches-icon-weapon(-699px, -721px, 32px, 32px);
+}
+
+.icon-weapon-pazion-knuckle {
+    @include stitches-icon-weapon(-741px, -721px, 32px, 32px);
+}
+
+.icon-weapon-pazion-knuckle-24x24 {
+    @include stitches-icon-weapon(-783px, -721px, 24px, 24px);
+}
+
+.icon-weapon-penel-sword {
+    @include stitches-icon-weapon(-817px, -721px, 32px, 32px);
+}
+
+.icon-weapon-peny-wand {
+    @include stitches-icon-weapon(-859px, -721px, 32px, 32px);
+}
+
+.icon-weapon-peny-wand-24x24 {
+    @include stitches-icon-weapon(-901px, -721px, 24px, 24px);
+}
+
+.icon-weapon-petal-sword {
+    @include stitches-icon-weapon(-935px, -721px, 32px, 32px);
+}
+
+.icon-weapon-piecenition-axe {
+    @include stitches-icon-weapon(-5px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pieceslayer-sword {
+    @include stitches-icon-weapon(-47px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pinacle-stick {
+    @include stitches-icon-weapon(-89px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pinsi-staff {
+    @include stitches-icon-weapon(-131px, -763px, 32px, 32px);
+}
+
+.icon-weapon-plim-stick {
+    @include stitches-icon-weapon(-173px, -763px, 32px, 32px);
+}
+
+.icon-weapon-poly-wand {
+    @include stitches-icon-weapon(-288px, -763px, 32px, 32px);
+}
+
+.icon-weapon-poly-wand-24x24 {
+    @include stitches-icon-weapon(-330px, -763px, 24px, 24px);
+}
+
+.icon-weapon-portel-staff {
+    @include stitches-icon-weapon(-364px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pre-bastard-sword {
+    @include stitches-icon-weapon(-406px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pre-birdin-staff {
+    @include stitches-icon-weapon(-448px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pre-necrynzi-knuckle {
+    @include stitches-icon-weapon(-490px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pre-necrynzi-knuckle-24x24 {
+    @include stitches-icon-weapon(-532px, -763px, 24px, 24px);
+}
+
+.icon-weapon-pre-neplus-wand {
+    @include stitches-icon-weapon(-566px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pre-neplus-wand-24x24 {
+    @include stitches-icon-weapon(-608px, -763px, 24px, 24px);
+}
+
+.icon-weapon-pre-shabere-stick {
+    @include stitches-icon-weapon(-642px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pre-shyder-sword {
+    @include stitches-icon-weapon(-684px, -763px, 32px, 32px);
+}
+
+.icon-weapon-prede-stick {
+    @include stitches-icon-weapon(-726px, -763px, 32px, 32px);
+}
+
+.icon-weapon-prenil-knuckle {
+    @include stitches-icon-weapon(-768px, -763px, 32px, 32px);
+}
+
+.icon-weapon-prenil-knuckle-24x24 {
+    @include stitches-icon-weapon(-810px, -763px, 24px, 24px);
+}
+
+.icon-weapon-proem-axe {
+    @include stitches-icon-weapon(-844px, -763px, 32px, 32px);
+}
+
+.icon-weapon-pulley-of-clockworks {
+    @include stitches-icon-weapon(-886px, -763px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-axe {
+    @include stitches-icon-weapon(-928px, -763px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-big-axe {
+    @include stitches-icon-weapon(-5px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-bow {
+    @include stitches-icon-weapon(-47px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-knuckle {
+    @include stitches-icon-weapon(-89px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-knuckle-24x24 {
+    @include stitches-icon-weapon(-131px, -805px, 24px, 24px);
+}
+
+.icon-weapon-queen-entaness-slayer {
+    @include stitches-icon-weapon(-165px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-staff {
+    @include stitches-icon-weapon(-207px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-stick {
+    @include stitches-icon-weapon(-249px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-sword {
+    @include stitches-icon-weapon(-291px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-wand {
+    @include stitches-icon-weapon(-333px, -805px, 32px, 32px);
+}
+
+.icon-weapon-queen-entaness-wand-24x24 {
+    @include stitches-icon-weapon(-375px, -805px, 24px, 24px);
+}
+
+.icon-weapon-queen-entaness-yoyo {
+    @include stitches-icon-weapon(-409px, -805px, 32px, 32px);
+}
+
+.icon-weapon-qurion-axe {
+    @include stitches-icon-weapon(-451px, -805px, 32px, 32px);
+}
+
+.icon-weapon-qurion-bow {
+    @include stitches-icon-weapon(-493px, -805px, 32px, 32px);
+}
+
+.icon-weapon-qurion-knuckle {
+    @include stitches-icon-weapon(-535px, -805px, 32px, 32px);
+}
+
+.icon-weapon-qurion-knuckle-24x24 {
+    @include stitches-icon-weapon(-577px, -805px, 24px, 24px);
+}
+
+.icon-weapon-qurion-staff {
+    @include stitches-icon-weapon(-611px, -805px, 32px, 32px);
+}
+
+.icon-weapon-qurion-stick {
+    @include stitches-icon-weapon(-653px, -805px, 32px, 32px);
+}
+
+.icon-weapon-qurion-sword {
+    @include stitches-icon-weapon(-695px, -805px, 32px, 32px);
+}
+
+.icon-weapon-qurion-yoyo {
+    @include stitches-icon-weapon(-737px, -805px, 32px, 32px);
+}
+
+.icon-weapon-rampart-knuckle {
+    @include stitches-icon-weapon(-779px, -805px, 32px, 32px);
+}
+
+.icon-weapon-rampart-knuckle-24x24 {
+    @include stitches-icon-weapon(-821px, -805px, 24px, 24px);
+}
+
+.icon-weapon-raptor-axe {
+    @include stitches-icon-weapon(-855px, -805px, 32px, 32px);
+}
+
+.icon-weapon-rave-stick {
+    @include stitches-icon-weapon(-897px, -805px, 32px, 32px);
+}
+
+.icon-weapon-redianer-bow {
+    @include stitches-icon-weapon(-939px, -805px, 32px, 32px);
+}
+
+.icon-weapon-reformeti-bow {
+    @include stitches-icon-weapon(-5px, -847px, 32px, 32px);
+}
+
+.icon-weapon-regen-bow {
+    @include stitches-icon-weapon(-47px, -847px, 32px, 32px);
+}
+
+.icon-weapon-rekis-wand {
+    @include stitches-icon-weapon(-89px, -847px, 32px, 32px);
+}
+
+.icon-weapon-rekis-wand-24x24 {
+    @include stitches-icon-weapon(-131px, -847px, 24px, 24px);
+}
+
+.icon-weapon-remodic-staff {
+    @include stitches-icon-weapon(-165px, -847px, 32px, 32px);
+}
+
+.icon-weapon-repoyit-yoyo {
+    @include stitches-icon-weapon(-207px, -847px, 32px, 32px);
+}
+
+.icon-weapon-revenant-knuckle {
+    @include stitches-icon-weapon(-249px, -847px, 32px, 32px);
+}
+
+.icon-weapon-revenant-knuckle-24x24 {
+    @include stitches-icon-weapon(-291px, -847px, 24px, 24px);
+}
+
+.icon-weapon-ridener-yoyo {
+    @include stitches-icon-weapon(-325px, -847px, 32px, 32px);
+}
+
+.icon-weapon-rigor-knuckle {
+    @include stitches-icon-weapon(-367px, -847px, 32px, 32px);
+}
+
+.icon-weapon-rigor-knuckle-24x24 {
+    @include stitches-icon-weapon(-409px, -847px, 24px, 24px);
+}
+
+.icon-weapon-rodney-axe {
+    @include stitches-icon-weapon(-443px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-big-axe {
+    @include stitches-icon-weapon(-485px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-bow {
+    @include stitches-icon-weapon(-527px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-hammer {
+    @include stitches-icon-weapon(-569px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-knuckle {
+    @include stitches-icon-weapon(-611px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-knuckle-24x24 {
+    @include stitches-icon-weapon(-653px, -847px, 24px, 24px);
+}
+
+.icon-weapon-royal-slayer {
+    @include stitches-icon-weapon(-687px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-staff {
+    @include stitches-icon-weapon(-729px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-stick {
+    @include stitches-icon-weapon(-771px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-sword {
+    @include stitches-icon-weapon(-813px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-wand {
+    @include stitches-icon-weapon(-855px, -847px, 32px, 32px);
+}
+
+.icon-weapon-royal-wand-24x24 {
+    @include stitches-icon-weapon(-897px, -847px, 24px, 24px);
+}
+
+.icon-weapon-royal-yoyo {
+    @include stitches-icon-weapon(-931px, -847px, 32px, 32px);
+}
+
+.icon-weapon-ruby-wand {
+    @include stitches-icon-weapon(-5px, -889px, 32px, 32px);
+}
+
+.icon-weapon-ruby-wand-24x24 {
+    @include stitches-icon-weapon(-47px, -889px, 24px, 24px);
+}
+
+.icon-weapon-rune-wand {
+    @include stitches-icon-weapon(-81px, -889px, 32px, 32px);
+}
+
+.icon-weapon-rune-wand-24x24 {
+    @include stitches-icon-weapon(-123px, -889px, 24px, 24px);
+}
+
+.icon-weapon-ruolf-staff {
+    @include stitches-icon-weapon(-157px, -889px, 32px, 32px);
+}
+
+.icon-weapon-saint-guardian-stick {
+    @include stitches-icon-weapon(-199px, -889px, 32px, 32px);
+}
+
+.icon-weapon-saint-stick {
+    @include stitches-icon-weapon(-241px, -889px, 32px, 32px);
+}
+
+.icon-weapon-saint-wand {
+    @include stitches-icon-weapon(-283px, -889px, 32px, 32px);
+}
+
+.icon-weapon-saint-wand-24x24 {
+    @include stitches-icon-weapon(-325px, -889px, 24px, 24px);
+}
+
+.icon-weapon-salamander-knuckle {
+    @include stitches-icon-weapon(-359px, -889px, 32px, 32px);
+}
+
+.icon-weapon-salamander-knuckle-24x24 {
+    @include stitches-icon-weapon(-401px, -889px, 24px, 24px);
+}
+
+.icon-weapon-sardine-knuckle {
+    @include stitches-icon-weapon(-435px, -889px, 32px, 32px);
+}
+
+.icon-weapon-sardine-knuckle-24x24 {
+    @include stitches-icon-weapon(-477px, -889px, 24px, 24px);
+}
+
+.icon-weapon-sayram-stick {
+    @include stitches-icon-weapon(-511px, -889px, 32px, 32px);
+}
+
+.icon-weapon-scull-stick {
+    @include stitches-icon-weapon(-553px, -889px, 32px, 32px);
+}
+
+.icon-weapon-seal-wand {
+    @include stitches-icon-weapon(-595px, -889px, 32px, 32px);
+}
+
+.icon-weapon-seal-wand-24x24 {
+    @include stitches-icon-weapon(-637px, -889px, 24px, 24px);
+}
+
+.icon-weapon-sealine-stick {
+    @include stitches-icon-weapon(-671px, -889px, 32px, 32px);
+}
+
+.icon-weapon-sege-staff {
+    @include stitches-icon-weapon(-713px, -889px, 32px, 32px);
+}
+
+.icon-weapon-sepal-sword {
+    @include stitches-icon-weapon(-755px, -889px, 32px, 32px);
+}
+
+.icon-weapon-sephy-stick {
+    @include stitches-icon-weapon(-797px, -889px, 32px, 32px);
+}
+
+.icon-weapon-setien-bow {
+    @include stitches-icon-weapon(-839px, -889px, 32px, 32px);
+}
+
+.icon-weapon-sevoy-bow {
+    @include stitches-icon-weapon(-881px, -889px, 32px, 32px);
+}
+
+.icon-weapon-shadeving-sword {
+    @include stitches-icon-weapon(-923px, -889px, 32px, 32px);
+}
+
+.icon-weapon-shait-stick {
+    @include stitches-icon-weapon(-5px, -931px, 32px, 32px);
+}
+
+.icon-weapon-shakyfin-axe {
+    @include stitches-icon-weapon(-47px, -931px, 32px, 32px);
+}
+
+.icon-weapon-shalow-stick {
+    @include stitches-icon-weapon(-89px, -931px, 32px, 32px);
+}
+
+.icon-weapon-shamerel-staff {
+    @include stitches-icon-weapon(-131px, -931px, 32px, 32px);
+}
+
+.icon-weapon-sheikane-staff {
+    @include stitches-icon-weapon(-173px, -931px, 32px, 32px);
+}
+
+.icon-weapon-shinewing-stick {
+    @include stitches-icon-weapon(-215px, -931px, 32px, 32px);
+}
+
+.icon-weapon-shining-sword {
+    @include stitches-icon-weapon(-257px, -931px, 32px, 32px);
+}
+
+.icon-weapon-shuprim-staff {
+    @include stitches-icon-weapon(-299px, -931px, 32px, 32px);
+}
+
+.icon-weapon-shyadin-axe {
+    @include stitches-icon-weapon(-341px, -931px, 32px, 32px);
+}
+
+.icon-weapon-sibak-sword {
+    @include stitches-icon-weapon(-383px, -931px, 32px, 32px);
+}
+
+.icon-weapon-side-knuckle {
+    @include stitches-icon-weapon(-425px, -931px, 32px, 32px);
+}
+
+.icon-weapon-side-knuckle-24x24 {
+    @include stitches-icon-weapon(-467px, -931px, 24px, 24px);
+}
+
+.icon-weapon-siggers-bow {
+    @include stitches-icon-weapon(-501px, -931px, 32px, 32px);
+}
+
+.icon-weapon-sign-staff {
+    @include stitches-icon-weapon(-543px, -931px, 32px, 32px);
+}
+
+.icon-weapon-sionic-bow {
+    @include stitches-icon-weapon(-585px, -931px, 32px, 32px);
+}
+
+.icon-weapon-sirain-sword {
+    @include stitches-icon-weapon(-627px, -931px, 32px, 32px);
+}
+
+.icon-weapon-sizzle-stick {
+    @include stitches-icon-weapon(-669px, -931px, 32px, 32px);
+}
+
+.icon-weapon-skellock-knuckle {
+    @include stitches-icon-weapon(-711px, -931px, 32px, 32px);
+}
+
+.icon-weapon-skellock-knuckle-24x24 {
+    @include stitches-icon-weapon(-753px, -931px, 24px, 24px);
+}
+
+.icon-weapon-slayer-of-hernes {
+    @include stitches-icon-weapon(-787px, -931px, 32px, 32px);
+}
+
+.icon-weapon-slepint-yoyo {
+    @include stitches-icon-weapon(-829px, -931px, 32px, 32px);
+}
+
+.icon-weapon-sline-staff {
+    @include stitches-icon-weapon(-871px, -931px, 32px, 32px);
+}
+
+.icon-weapon-slinfes-yoyo {
+    @include stitches-icon-weapon(-913px, -931px, 32px, 32px);
+}
+
+.icon-weapon-smiter-sword {
+    @include stitches-icon-weapon(-955px, -931px, 32px, 32px);
+}
+
+.icon-weapon-soul-sword {
+    @include stitches-icon-weapon(-989px, -5px, 32px, 32px);
+}
+
+.icon-weapon-sparkling-sword {
+    @include stitches-icon-weapon(-973px, -47px, 32px, 32px);
+}
+
+.icon-weapon-splhail-wand {
+    @include stitches-icon-weapon(-981px, -89px, 32px, 32px);
+}
+
+.icon-weapon-splhail-wand-24x24 {
+    @include stitches-icon-weapon(-989px, -131px, 24px, 24px);
+}
+
+.icon-weapon-staff-of-hernes {
+    @include stitches-icon-weapon(-997px, -165px, 32px, 32px);
+}
+
+.icon-weapon-staff-of-ivillis {
+    @include stitches-icon-weapon(-997px, -207px, 33px, 34px);
+}
+
+.icon-weapon-staff-of-luena-lab {
+    @include stitches-icon-weapon(-997px, -251px, 32px, 32px);
+}
+
+.icon-weapon-starwheel-staff {
+    @include stitches-icon-weapon(-997px, -293px, 32px, 32px);
+}
+
+.icon-weapon-steel-knuckle {
+    @include stitches-icon-weapon(-981px, -335px, 32px, 32px);
+}
+
+.icon-weapon-steel-knuckle-24x24 {
+    @include stitches-icon-weapon(-997px, -377px, 24px, 24px);
+}
+
+.icon-weapon-stencil-yoyo {
+    @include stitches-icon-weapon(-997px, -411px, 32px, 32px);
+}
+
+.icon-weapon-stick-of-hernes {
+    @include stitches-icon-weapon(-989px, -453px, 32px, 32px);
+}
+
+.icon-weapon-stick-of-ivillis {
+    @include stitches-icon-weapon(-989px, -495px, 32px, 32px);
+}
+
+.icon-weapon-stick-of-roritoren {
+    @include stitches-icon-weapon(-989px, -537px, 32px, 32px);
+}
+
+.icon-weapon-stick-of-vel-parpone {
+    @include stitches-icon-weapon(-997px, -579px, 32px, 32px);
+}
+
+.icon-weapon-stienger-bow {
+    @include stitches-icon-weapon(-997px, -621px, 32px, 32px);
+}
+
+.icon-weapon-stitch-sword {
+    @include stitches-icon-weapon(-997px, -663px, 32px, 32px);
+}
+
+.icon-weapon-strad-sword {
+    @include stitches-icon-weapon(-986px, -705px, 32px, 32px);
+}
+
+.icon-weapon-sword-of-boboku {
+    @include stitches-icon-weapon(-977px, -747px, 32px, 32px);
+}
+
+.icon-weapon-sword-of-hernes {
+    @include stitches-icon-weapon(-981px, -789px, 32px, 32px);
+}
+
+.icon-weapon-sword-of-ivillis {
+    @include stitches-icon-weapon(-981px, -831px, 32px, 32px);
+}
+
+.icon-weapon-sword-of-silver-sword {
+    @include stitches-icon-weapon(-973px, -873px, 32px, 32px);
+}
+
+.icon-weapon-talin-knuckle {
+    @include stitches-icon-weapon(-997px, -915px, 32px, 32px);
+}
+
+.icon-weapon-talin-knuckle-24x24 {
+    @include stitches-icon-weapon(-997px, -957px, 24px, 24px);
+}
+
+.icon-weapon-tao-sword {
+    @include stitches-icon-weapon(-5px, -991px, 32px, 32px);
+}
+
+.icon-weapon-taris-wand {
+    @include stitches-icon-weapon(-47px, -991px, 32px, 32px);
+}
+
+.icon-weapon-taris-wand-24x24 {
+    @include stitches-icon-weapon(-89px, -991px, 24px, 24px);
+}
+
+.icon-weapon-taytra-axe {
+    @include stitches-icon-weapon(-123px, -991px, 32px, 32px);
+}
+
+.icon-weapon-teba-staff {
+    @include stitches-icon-weapon(-165px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tensu-yoyo {
+    @include stitches-icon-weapon(-207px, -991px, 32px, 32px);
+}
+
+.icon-weapon-toy-of-iblis {
+    @include stitches-icon-weapon(-249px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-axe {
+    @include stitches-icon-weapon(-291px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-bow {
+    @include stitches-icon-weapon(-333px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-knuckle {
+    @include stitches-icon-weapon(-375px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-staff {
+    @include stitches-icon-weapon(-417px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-stick {
+    @include stitches-icon-weapon(-459px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-sword {
+    @include stitches-icon-weapon(-501px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-wand {
+    @include stitches-icon-weapon(-543px, -991px, 32px, 32px);
+}
+
+.icon-weapon-tritium-wand-24x24 {
+    @include stitches-icon-weapon(-585px, -991px, 24px, 24px);
+}
+
+.icon-weapon-tritium-yoyo {
+    @include stitches-icon-weapon(-619px, -991px, 32px, 32px);
+}
+
+.icon-weapon-twenkeen-staff {
+    @include stitches-icon-weapon(-661px, -991px, 32px, 32px);
+}
+
+.icon-weapon-twit-knuckle {
+    @include stitches-icon-weapon(-703px, -991px, 32px, 32px);
+}
+
+.icon-weapon-twit-knuckle-24x24 {
+    @include stitches-icon-weapon(-745px, -991px, 24px, 24px);
+}
+
+.icon-weapon-two-handed-axe {
+    @include stitches-icon-weapon(-779px, -991px, 32px, 32px);
+}
+
+.icon-weapon-two-handed-sword {
+    @include stitches-icon-weapon(-821px, -991px, 32px, 32px);
+}
+
+.icon-weapon-vampire-axe {
+    @include stitches-icon-weapon(-863px, -991px, 32px, 32px);
+}
+
+.icon-weapon-vampire-big-axe {
+    @include stitches-icon-weapon(-905px, -991px, 32px, 32px);
+}
+
+.icon-weapon-vampire-blade {
+    @include stitches-icon-weapon(-947px, -991px, 32px, 32px);
+}
+
+.icon-weapon-vampire-bow {
+    @include stitches-icon-weapon(-989px, -991px, 32px, 32px);
+}
+
+.icon-weapon-vampire-knuckle {
+    @include stitches-icon-weapon(-1031px, -5px, 32px, 32px);
+}
+
+.icon-weapon-vampire-knuckle-24x24 {
+    @include stitches-icon-weapon(-1015px, -47px, 24px, 24px);
+}
+
+.icon-weapon-vampire-slayer {
+    @include stitches-icon-weapon(-1023px, -81px, 32px, 32px);
+}
+
+.icon-weapon-vampire-staff {
+    @include stitches-icon-weapon(-1023px, -123px, 32px, 32px);
+}
+
+.icon-weapon-vampire-stick {
+    @include stitches-icon-weapon(-1039px, -165px, 32px, 32px);
+}
+
+.icon-weapon-vampire-wand {
+    @include stitches-icon-weapon(-1040px, -207px, 32px, 32px);
+}
+
+.icon-weapon-vampire-wand-24x24 {
+    @include stitches-icon-weapon(-1040px, -249px, 24px, 24px);
+}
+
+.icon-weapon-vampire-yoyo {
+    @include stitches-icon-weapon(-1039px, -283px, 32px, 32px);
+}
+
+.icon-weapon-varife-bow {
+    @include stitches-icon-weapon(-1039px, -325px, 32px, 32px);
+}
+
+.icon-weapon-vega-staff {
+    @include stitches-icon-weapon(-1031px, -367px, 32px, 32px);
+}
+
+.icon-weapon-venhill-staff {
+    @include stitches-icon-weapon(-1039px, -409px, 32px, 32px);
+}
+
+.icon-weapon-wand-of-earthquake {
+    @include stitches-icon-weapon(-1039px, -451px, 32px, 32px);
+}
+
+.icon-weapon-wand-of-earthquake-24x24 {
+    @include stitches-icon-weapon(-1031px, -493px, 24px, 24px);
+}
+
+.icon-weapon-wand-of-hernes {
+    @include stitches-icon-weapon(-1031px, -527px, 32px, 32px);
+}
+
+.icon-weapon-wand-of-hernes-24x24 {
+    @include stitches-icon-weapon(-1039px, -569px, 24px, 24px);
+}
+
+.icon-weapon-wand-of-ivillis {
+    @include stitches-icon-weapon(-1039px, -603px, 32px, 32px);
+}
+
+.icon-weapon-wand-of-ivillis-24x24 {
+    @include stitches-icon-weapon(-1039px, -645px, 24px, 24px);
+}
+
+.icon-weapon-waturan-axe {
+    @include stitches-icon-weapon(-1039px, -679px, 32px, 32px);
+}
+
+.icon-weapon-wheel-of-wheelem {
+    @include stitches-icon-weapon(-1028px, -721px, 32px, 32px);
+}
+
+.icon-weapon-wingfull-yoyo {
+    @include stitches-icon-weapon(-1023px, -763px, 32px, 32px);
+}
+
+.icon-weapon-wooden-sword {
+    @include stitches-icon-weapon(-1023px, -805px, 32px, 32px);
+}
+
+.icon-weapon-woodness-bow {
+    @include stitches-icon-weapon(-1023px, -847px, 32px, 32px);
+}
+
+.icon-weapon-xeno-knuckle {
+    @include stitches-icon-weapon(-1039px, -889px, 32px, 32px);
+}
+
+.icon-weapon-xeno-knuckle-24x24 {
+    @include stitches-icon-weapon(-1039px, -931px, 24px, 24px);
+}
+
+.icon-weapon-yakadain-knuckle {
+    @include stitches-icon-weapon(-1031px, -965px, 32px, 32px);
+}
+
+.icon-weapon-yakadain-knuckle-24x24 {
+    @include stitches-icon-weapon(-1031px, -1007px, 24px, 24px);
+}
+
+.icon-weapon-yakshadain-stick {
+    @include stitches-icon-weapon(-1073px, -5px, 32px, 32px);
+}
+
+.icon-weapon-yakshadain-stick-24x24 {
+    @include stitches-icon-weapon(-1049px, -47px, 24px, 24px);
+}
+
+.icon-weapon-yoyo-of-hernes {
+    @include stitches-icon-weapon(-1065px, -81px, 32px, 32px);
+}
+
+.icon-weapon-yoyo-of-ivillis {
+    @include stitches-icon-weapon(-1065px, -123px, 32px, 32px);
+}
+
+.icon-weapon-zerem-wand {
+    @include stitches-icon-weapon(-1081px, -165px, 32px, 32px);
+}
+
+.icon-weapon-zeroth-sword {
+    @include stitches-icon-weapon(-1082px, -207px, 32px, 32px);
+}
+
+.icon-weapon-zikmoon-knuckle {
+    @include stitches-icon-weapon(-1081px, -249px, 32px, 32px);
+}
+
+.icon-weapon-zikmoon-knuckle-24x24 {
+    @include stitches-icon-weapon(-1083px, -47px, 24px, 24px);
+}
+
+.icon-weapon-zweigazer-sword {
+    @include stitches-icon-weapon(-1081px, -291px, 32px, 32px);
+}
+

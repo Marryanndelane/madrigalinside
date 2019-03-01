@@ -1,0 +1,143 @@
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+
+	ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+		text-align: center;
+		border-bottom: 1px solid;
+
+		ul {
+			@include shadow-box();
+			border-radius: 0 0 5px 5px;
+			float: left;
+			position: absolute;
+			top: 100%;
+			left: -999em;
+			z-index: 99999;
+			background-color: #fff;
+
+			ul {
+				left: -999em;
+				top: 0;
+			}
+
+			li {
+				&:hover > ul,
+				&.focus > ul {
+					left: 100%;
+				}
+			}
+
+			a {
+				width: 200px;
+				color: #000;
+			}
+
+			:hover > a,
+			.focus > a {
+			}
+
+			a:hover,
+			a.focus {
+				color: #333;
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			// -1px for border
+			left: -1px;
+		}
+	}
+
+	.menu > li {
+		position: relative;
+		display: inline-block;
+		border: 1px solid;
+		border-radius: 5px 5px 0 0;
+		border-bottom: 0;
+
+		@for $i from 1 through length($menuitem-bgcolor-list) {
+			&:nth-of-type(#{$i}) {
+				border-color: nth($menuitem-bgcolor-list, $i);
+				
+				&.current_page_item,
+				&:hover {
+					background-color: nth($menuitem-bgcolor-list, $i);
+					> a {
+						color: $menuitem-color-active;
+					}
+				}
+				> a {
+					color: nth($menuitem-bgcolor-list, $i);
+					&:focus {
+						color: $menuitem-color-active;
+					}
+				}
+				ul {
+					border-color: nth($menuitem-bgcolor-list, $i);
+				}
+			}
+		}
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		padding: 5px;
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current-menu-ancestor > a {
+	}
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		margin-left: 1.5em;
+	}
+
+	.nav-next {
+		text-align: right;
+	}
+}
+
+.breadcrumb {
+	margin-top: 10px;
+	margin-left: 25%;
+	@media screen and (min-width: 37.5em) {
+		margin-top: 0;
+		padding: 0.5em;
+	}
+}
